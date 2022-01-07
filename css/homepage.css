@@ -92,6 +92,23 @@ img {
     box-sizing: border-box;
 }   
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:hover{ 
+color: red ;
+background-color: black;
+padding: 1em;
+}
+
+a {
+  color: white;
+  grid-column: 1/6;
+}
+
 .home-headline {
     grid-column: 3/6;
     grid-row: 1;
@@ -107,11 +124,6 @@ img {
   width: 60%;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 
   
