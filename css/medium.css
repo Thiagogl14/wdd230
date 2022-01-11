@@ -1,6 +1,7 @@
 @media only screen and (min-width: 32.5em) {
     h1 {
-        font-size: auto;
+        font-size: 60px;
+        padding: 10px 20px 10px 20px;
         
       }
 
@@ -11,10 +12,5 @@
       .Profile {
         width: 80%;
       }
-
-      .home-headline {
-        font-size: auto;
-        float: left;
-    } 
 }
     
