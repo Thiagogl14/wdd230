@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Zen+Kaku+Gothic+Antique:wght@400&display=swap');
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    background-color: #AF371D;
+}
+
+header {
+    text-align: center;
+    background-color: red;
+    border-radius: 0 0 10px 10px;
+    color:black;
+    padding: 1em;
+}
+h1 {
+    margin-bottom: 0.25em;
+    font-family: "Racing Sans One", sans-serif;
+    color: #F39B68;
+    background-color:#232020;
+}
+header > span {
+    font-size: medium;
+    background-color: #232020;
+    color:  #F39B68 ;
+    font-family: "Racing Sans One", sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 95%;
+    margin: 20px auto;
+    background-color: #AF371D;
+}
+section {
+    border-radius: 10px;
+    background-color: white;
+    border: solid 1px gray;
+    overflow: hidden;
+}
+section * {
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+h3 {
+    margin: 0;
+    font-family: "Racing Sans One", sans-serif;
+    padding: 10px;
+    text-align: center;
+    color: #F39B68;
+    background-color:#232020;
+}
+section > div {
+    padding: 0 10px;
+}
+section > div > span {
+    display: block;
+}
+section > div > * {
+    font-size: 1.05em;
+}
+section img {
+    width: calc(100% - 2px);
+    display: block;
+    margin: 0 auto;
+    border: solid 1px gray;
+    max-width: 320px;
+}
+
+footer {
+    background-color: #232020 ;
+    color: #FBFBFB;
+    padding: 1em;
+    display: grid;
+    margin:0;
+    align-items: center;
+  }
