@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Zen+Kaku+Gothic+Antique:wght@400&display=swap');
 
+html {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+}
+
 body {
-  background-color: white;
+  background-color: #F39B68;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
   margin: 0;
   color: #FCD9F8;
+  max-width: 600px;
 }
-
 
 h1,h2,h3,h4,h5,h6 {
     color: #F39B68;
@@ -70,21 +79,37 @@ main {
   background-color: #AF371D;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   padding: 10px;
+  text-align: center;
 }
-
 
 footer {
-  background-color: #232020 ;
-  color: #FBFBFB;
-  padding: 1em;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  margin:0;
-  align-items: center;
+  background-color: black;
+  position: relative;
+  color: white;
+  padding: 0.75em;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 10;
+}
+footer a {
+  color: white;
+  text-decoration: underline red;
+  transition: color 0.5s, text-shadow 0.5s;
+}
+footer a:hover {
+  color: white;
+  text-shadow: 1px 1px 10px red;
+}
+#updated {
+  color: red;
+  font-size: 12px;
 }
 
-footer p{
-  grid-column: 1/6;
+.footer1 {
+  display: none;
+}
+.footer2 {
+  display: inline;
 }
 
 img {
