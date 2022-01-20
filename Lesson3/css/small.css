@@ -24,7 +24,7 @@ nav {
     position: static;
 }
 nav > ul {
-    grid-template-columns: 1fr;
+    display: flex;
 }
 section.grid {
     grid-template-columns: 1fr;

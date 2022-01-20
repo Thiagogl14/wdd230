@@ -69,6 +69,10 @@ h1 {
     color: var(--default-light);
     margin-bottom: 0.75rem;
 }
+.list {
+    flex: 0.5;
+    box-shadow: 0 0 10px var(--default-dark);
+}
 nav {
     position: sticky;
     top: 0;
@@ -77,8 +81,9 @@ nav > ul {
     margin: 0;
     padding: 0;
     display: flex;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
     list-style: none;
-    flex-direction: column;
     box-shadow: 0 0 10px var(--default-dark);
 }
 nav a {
@@ -98,7 +103,7 @@ nav a, span.navR {
     background-color: var(--default-dark);
     box-shadow: 0 0 10px var(--default-dark);
 }
-nav a.at, nav a:active, span.navA {
+    nav a.at, nav a:active, span.navA {
     background-color: var(--main-color);
     box-shadow: 0 0 10px var(--main-color);
     font-weight: bold;
@@ -224,6 +229,12 @@ a {
     text-align: center;
     color: var(--default-dark);
 }
+.typo-holder > div {
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+    color: var(--default-dark);
+}
 .typo-holder > span > span {
     display: block;
 }
@@ -242,9 +253,9 @@ a {
     padding: 1rem;
     margin: 0;
 }
-.typo-holder > div {
+/* .typo-holder > div {
     text-align: left;
-}
+} */
 .typo-holder h1 {
     background: var(--main-color);
     padding: 1rem;
