@@ -1,0 +1,19 @@
+:root {
+    --main-color: #AF371D;
+    --secondary-color: #F39B68;
+    --accent-color: gray;
+    --default-light: white;
+    --default-dark: #232020;
+
+    --header-font: "Racing Sans One", sans-serif;
+    --paragraph-font: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+body {
+    grid-template-columns: auto 90% auto;
+}
+
+
+#typo-wrapper {
+    grid-template-columns: 1fr 1fr;
+}
