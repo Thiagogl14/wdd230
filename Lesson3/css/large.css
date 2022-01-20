@@ -3,7 +3,7 @@
 :root {
     --main-color: #AF371D;
     --secondary-color: #F39B68;
-    --accent-color: gray;
+    --accent-color: #808080;
     --default-light: white;
     --default-dark: #232020;
 
@@ -76,9 +76,9 @@ nav {
 nav > ul {
     margin: 0;
     padding: 0;
-    display: grid;
+    display: flex;
     list-style: none;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-direction: column;
     box-shadow: 0 0 10px var(--default-dark);
 }
 nav a {
@@ -153,16 +153,16 @@ table.more-spacing thead th {
 ul.more-spacing-bottom > li {
     padding-bottom: 1rem;
 }
-.bgGreen {
+.bgRed {
     background-color: var(--main-color);
 }
 .bgDark {
     background-color: var(--default-dark);
 }
-.bgBlue {
+.bgLightRed {
     background-color: var(--secondary-color);
 }
-.cGreen {
+.cRed {
     color: var(--main-color);
 }
 .cWhite {
@@ -171,7 +171,7 @@ ul.more-spacing-bottom > li {
 .cDark {
     color: var(--default-dark);
 }
-.cBlue {
+.cLightRed {
     color: var(--secondary-color);
 }
 h2.typography {
