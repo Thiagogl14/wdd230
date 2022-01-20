@@ -32,15 +32,15 @@ section.grid {
 section.grid img {
     max-width: 300px;
 }
-#color-scheme-wrapper {
+#color-wrapper {
     grid-template-columns: 1fr;
 }
-.color-scheme {
+.color {
     width: 70%;
     max-width: 400px;
     margin: 0 auto;
 }
-#typo-wrapper {
+#wrapper {
     grid-template-columns: 1fr;
     width: 90%;
     margin: 0 auto;

@@ -14,6 +14,6 @@ body {
 }
 
 
-#typo-wrapper {
+#wrapper {
     grid-template-columns: 1fr 1fr;
 }

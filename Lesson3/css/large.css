@@ -20,7 +20,7 @@ body {
 body > * {
     grid-column: 2;
 }
-.shadow-blocker-1, .shadow-blocker-2 {
+.blocker, .blocker-2 {
     background-color: var(--secondary-color);
     position: relative;
     z-index: 24;
@@ -29,7 +29,7 @@ body > * {
     grid-column: 1;
     grid-row: 1 / span 4;
 }
-.shadow-blocker-2 {
+.blocker-2 {
     grid-column: 3;
 }
 
@@ -81,8 +81,6 @@ nav > ul {
     margin: 0;
     padding: 0;
     display: flex;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; */
     list-style: none;
     box-shadow: 0 0 10px var(--default-dark);
 }
@@ -155,7 +153,7 @@ table.more-spacing th {
 table.more-spacing thead th {
     text-align: center;
 }
-ul.more-spacing-bottom > li {
+ul.spacing > li {
     padding-bottom: 1rem;
 }
 .bgRed {
@@ -179,14 +177,14 @@ ul.more-spacing-bottom > li {
 .cLightRed {
     color: var(--secondary-color);
 }
-h2.typography {
+h2.typo {
     text-align: center;
 }
 a {
     color: var(--main-color);
 }
 
-#color-scheme-wrapper {
+#color-wrapper {
     display: grid;
     margin: 5px auto;
     grid-template-columns: 1fr 1fr 1fr;
@@ -194,13 +192,13 @@ a {
     justify-items: stretch;
     align-items: stretch;
 }
-.color-scheme {
+.color {
     box-shadow: 2px 2px 5px var(--default-dark);
     border: solid 2px var(--main-color);
     border-radius: 5px;
     padding: 0.5rem;
 }
-.color-scheme h4 {
+.color h4 {
     text-align: center;
     margin: 1rem 0;
 }
@@ -211,52 +209,50 @@ a {
     padding: 0.5rem;
 }
 
-#typo-wrapper {
+#wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
     padding-bottom: 2rem;
 }
-.typo-holder {
+.holder {
     padding: 0.5rem;
     border: solid 1px var(--default-dark);
     border-radius: 5px;
     box-shadow: 2px 2px 10px var(--default-dark);
 }
-.typo-holder > span {
+.holder > span {
     padding: 0.5rem;
     display: block;
     text-align: center;
     color: var(--default-dark);
 }
-.typo-holder > div {
+.holder > div {
     padding: 0.5rem;
     display: block;
     text-align: center;
     color: var(--default-dark);
 }
-.typo-holder > span > span {
+.holder > span > span {
     display: block;
 }
-.typo-holder ul {
+.holder ul {
     text-align: left;
     margin: 0;
     margin-left: 1rem;
 }
-.typo-holder > h2 {
+.holder > h2 {
     color: var(--main-color);
     padding: 1rem;
     margin: 0;
 }
-.typo-holder > h3, .typo-holder > h4 {
+.holder > h3, .holder > h4 {
     color: var(--default-dark);
     padding: 1rem;
     margin: 0;
 }
-/* .typo-holder > div {
-    text-align: left;
-} */
-.typo-holder h1 {
+
+.holder h1 {
     background: var(--main-color);
     padding: 1rem;
     margin: 0;
@@ -274,14 +270,14 @@ span.navFH {
     text-shadow: 0 0 10px var(--secondary-color);
     text-decoration: underline var(--secondary-color);
 }
-.typo-holder span.navR {
+.holder span.navR {
     position: static;
     z-index: 1;
 }
-.typo-holder.more-spacing .bgGreen,
-.typo-holder.more-spacing .bgDark,
-.typo-holder.more-spacing .bgBlue,
-.typo-holder.more-spacing .bgWhite {
+.holder.more-spacing .bgGreen,
+.holder.more-spacing .bgDark,
+.holder.more-spacing .bgBlue,
+.holder.more-spacing .bgWhite {
     box-shadow: inset 0 0 0 1px var(--default-dark);
 }
 
