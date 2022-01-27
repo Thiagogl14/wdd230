@@ -62,7 +62,7 @@ header {
 }
 header > span {
     display: block;
-    color: var(--secondary-color);
+    color: var(--default-light);
     padding-bottom: 1rem;
 }
 h1 {
