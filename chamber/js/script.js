@@ -15,7 +15,7 @@ else {
 let now = new Date()
 let months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
 let weekDays = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ]
-document.querySelector('footer .current-date').innerHTML = weekDays[now.getDay()]+", "
+document.querySelector('#headerDate').innerHTML = weekDays[now.getDay()]+", "
                                                           +months[now.getMonth()]+" "
                                                           +now.getDate()+", "
                                                           +now.getFullYear()
