@@ -58,3 +58,23 @@ section.contact-info .social-links {
         margin-left: calc(30% - 70px);
     }
 }
+
+div.hero section.summary {
+    max-width: 200px;
+    width: calc(100% - 40px);
+}
+
+@media screen and (max-width: 500px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    header span {
+        font-size: 0.8rem;
+    }
+    header img {
+        width: 75px;
+    }
+    div.hero section {
+        left: calc(50% - 100px - 1em);
+    }
+}

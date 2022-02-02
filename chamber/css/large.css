@@ -255,13 +255,6 @@ div.social-links a:hover .youtube {
     margin: 15px;
 }
 
-#towns {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    margin: 30px auto 20px;
-}
-
 section.quick-links {
     margin: 0 auto 40px;
     grid-template-columns: 1fr 1fr;
@@ -334,7 +327,43 @@ footer {
     display: inline;
   }
 
+  .footerImage{
+      width: 100px;
+      float: left;
+      margin-left: 50px;
+      
+  }
+
 #headerDate {
-    margin-left: 125px;
+    margin-left: 115px;
     color: var(--default-light);
+}
+
+div.hero {
+    z-index: 1;
+    position: relative;
+    background-image: url("./../images/hero-image.jpg");
+    background-size: cover;
+    background-position: left bottom;
+    overflow: hidden;
+    height: 250px;
+}
+div.hero section {
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    background: rgba(255,255,255,0.7);
+    background-image: linear-gradient(-160deg, rgba(255,255,255,0.7) 50%, rgba(100,100,100,0.7));
+    animation: come-in 2s ease-in-out;
+    transition: top 0.3s;
+}
+div.hero section h3 {
+    margin-top: 0.5rem;
+}
+
+div.hero.homepage {
+    margin-top: -1px;
+    background-image: url("./../images/hero-image.jpg");
 }
