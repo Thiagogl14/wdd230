@@ -19,9 +19,23 @@ document.querySelector('#headerDate').innerHTML = weekDays[now.getDay()]+", "
                                                           +months[now.getMonth()]+" "
                                                           +now.getDate()+", "
                                                           +now.getFullYear()
+
+                                                        //   weekDays = now.getDay();
+
+                                                        //   let message;
+                                                          
+                                                        //   if (weekDays == "Monday" && weekDays == "Tuesday") {
+                                                        //       message = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+                                                        //   } else {
+                                                        //       message = 'Nothing for today.';
+                                                        //   }
+
 function toggleMenu() {
     var temp = document.getElementsByClassName("toggler")[0]
     temp.classList.toggle("hide")
     if (temp.classList[1]=="hide") document.querySelector(".toggler > a").innerHTML = "&#9776; Menu"
     else document.querySelector(".toggler > a").innerHTML = "&#10006; Close"
                         }
+
+                        
+
