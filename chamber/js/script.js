@@ -20,15 +20,15 @@ document.querySelector('#headerDate').innerHTML = weekDays[now.getDay()]+", "
                                                           +now.getDate()+", "
                                                           +now.getFullYear()
 
-                                                        //   weekDays = now.getDay();
+                                                          weekDays = now.getDay();
 
-                                                        //   let message;
+                                                          let message;
                                                           
-                                                        //   if (weekDays == "Monday" && weekDays == "Tuesday") {
-                                                        //       message = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
-                                                        //   } else {
-                                                        //       message = 'Nothing for today.';
-                                                        //   }
+                                                          if (weekDays == "Monday" && weekDays == "Tuesday") {
+                                                              message = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+                                                          } else {
+                                                              message = 'Nothing for today.';
+                                                          }
 
 function toggleMenu() {
     var temp = document.getElementsByClassName("toggler")[0]
