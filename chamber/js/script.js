@@ -24,11 +24,12 @@ document.querySelector('#headerDate').innerHTML = weekDays[now.getDay()]+", "
 
                                                           let message;
                                                           
-                                                          if (weekDays == "Monday" && weekDays == "Tuesday") {
+                                                          if (weekDays == 1 || weekDays == 2) {
                                                               message = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
                                                           } else {
                                                               message = 'Nothing for today.';
                                                           }
+                                                          document.querySelector("#banner").innerHTML = message
 
 function toggleMenu() {
     var temp = document.getElementsByClassName("toggler")[0]

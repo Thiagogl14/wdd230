@@ -337,6 +337,17 @@ footer {
 #headerDate {
     margin-left: 115px;
     color: var(--default-light);
+    margin: black, dashed;
+}
+
+#banner {
+    margin-left: 10px;
+    color: var(--default-light);
+    padding: 1rem;
+    background-color: black;
+    border: dashed 1px var(--default-dark);
+    /* margin-bottom: 20px; */
+    font-style: italic;
 }
 
 div.hero {
