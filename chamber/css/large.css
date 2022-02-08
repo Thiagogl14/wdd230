@@ -337,7 +337,10 @@ footer {
 #headerDate {
     margin-left: 115px;
     color: var(--default-light);
-    margin: black, dashed;
+    padding: 1rem;
+    border: dashed 1px var(--default-dark);
+    font-style: italic;
+    margin-bottom: 2%;
 }
 
 #banner {
@@ -379,7 +382,7 @@ div.hero.homepage {
     background-image: url("./../images/hero-image.jpg");
 }
 
-#towns {
+#topics {
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -390,7 +393,7 @@ div.hero.homepage {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#towns > div {
+#topics > div {
     /* width: calc(90% - 1em); */
     margin: 30px auto;
     text-align: center;
@@ -399,27 +402,27 @@ div.hero.homepage {
     padding: 1em;
     max-width: 250px;
 }
-#towns > div img {
+#topics > div img {
     max-width: 100%;
     border-radius: 10px;
 }
-#towns > div h2 {
+#topics > div h2 {
     margin: 0;
     margin-top: 0.5em;
     letter-spacing: 2px;
 }
-#towns > div span {
+#topics > div span {
     font-size: small;
 }
 
 @media screen and (min-width: 851px) and (max-width: 1111px) {
-    #towns {
+    #topics {
         grid-template-columns: 1fr 1fr;
     }
-    #towns > div {
+    #topics > div {
         margin: 0 auto;
     }
-    #towns > div:nth-child(3) {
+    #topics > div:nth-child(3) {
         grid-template-columns: auto calc(214px + 2em);
         justify-items: center;
         align-items: center;
@@ -427,10 +430,10 @@ div.hero.homepage {
         max-width: 600px;
         display: grid;
     }
-    #towns > div:nth-child(3) h2 {
+    #topics > div:nth-child(3) h2 {
         margin-top: 0;
     }
-    #towns > div:nth-child(3) img {
+    #topics > div:nth-child(3) img {
         width: 100%;
         height: 100%;
         max-width: 325px;

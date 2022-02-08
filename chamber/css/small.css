@@ -79,40 +79,40 @@ div.hero section.summary {
     }
 }
 
-#towns {
+#topics {
     grid-template-columns: 1fr;
     grid-gap: 0;
 }
 
 @media screen and (min-width: 601px) {
-    #towns > div {
+    #topics > div {
         display: grid;
         grid-template-columns: auto calc(214px + 2em);
         justify-items: center;
         align-items: center;
         max-width: 600px;
     }
-    #towns > div img {
+    #topics > div img {
         width: 100%;
         height: 100%;
         max-width: 325px;
         object-fit: cover;
         object-position: center;
     }
-    #towns > div:nth-child(even) {
+    #topics > div:nth-child(even) {
         grid-template-columns: calc(214px + 2em) auto;
     }
-    #towns > div:nth-child(even) img {
+    #topics > div:nth-child(even) img {
         grid-column: 2;
         grid-row: 1;
     }
-    #towns > div:nth-child(even) section {
+    #topics > div:nth-child(even) section {
         grid-row: 1;
     }
 }
 
 @media screen and (min-width: 546px) and (max-width: 600px) {
-    #towns > div img {
+    #topics > div img {
         max-width: 140%;
         position: absolute;
         left: calc(-20%);
@@ -121,7 +121,7 @@ div.hero section.summary {
         top: -150px;
         z-index: 3;
     }
-    #towns > div {
+    #topics > div {
         position: relative;
         align-items: center;
         grid-template-columns: 1fr;
@@ -133,7 +133,7 @@ div.hero section.summary {
         z-index: 4;
         padding: 0;
     }
-    #towns > div section {
+    #topics > div section {
         border-radius: 10px;
         box-shadow: 3px 3px 10px var(--default-dark);
         background: rgba(255,255,255,0.8);
@@ -145,14 +145,42 @@ div.hero section.summary {
 }
 
 @media screen and (max-width: 545px) {
-    #towns > div {
+    #topics > div {
         max-width: 300px;
     }
-    #towns > div img {
+    #topics > div img {
         width: 100%;
         max-width: 300px;
     }
-    #towns > div h2 {
+    #topics > div h2 {
         margin-top: 0.5em;
     }
+}
+
+.logo {
+    margin: auto;
+    align-content: center;
+}
+
+.headerDiv {
+    display: block;
+}
+
+.subtitle {
+    margin-left: 0;
+}
+
+.social-links{
+    justify-content: center;
+    margin-bottom: 2%;
+    padding-left: 0;
+}
+
+.quick-links{
+    display: block;
+}
+
+#headerDate {
+    margin-left: 0;
+    margin-bottom: 2%;
 }
