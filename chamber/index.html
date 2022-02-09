@@ -16,7 +16,7 @@
         <div class="blocker-2"></div>
         <header>
             <div class="headerDiv">
-                <img class ="logo" src="./images/CommerceCheckpoint.jpg" alt="header logo">
+                <img class ="logo" src="./images/CommerceCheckpoint.webp" alt="header logo">
                 <h1>Commerce Checkpoint</h1>
                 <span class="subtitle">We've got the commerce info you need</span>
                 <div class="social-links">
@@ -39,13 +39,20 @@
             </ul>
         </nav>
         <main>
-            <div class="hero homepage"></div>
+            <!-- <div class="hero.homepage"></div> -->
+            <div class="hero6">
+                <picture>
+                    <source srcset="./images/wdd230-org-small.jpg" media="(max-width: 501px)">
+                    <source srcset="./images/wdd230-org-medium.jpg" media="(max-width: 720px)">
+                    <img src="./images/wdd230-org.jpg" alt="hero-image">
+                </picture>
+            </div>
             <div id="topics">
                 <div>
                     <img src="./images/events.jpg" alt="image for events">
                     <section>
                         <h2>Events</h2>
-                        <span>Events subtitle</span>
+                        <span>We will be waiting for you!</span>
                         <p>May 20th - Chamber of Commerce Presentation</p>
                         <p>May 28th - Upcoming business partners</p>
                         <p>June 22nd - Commerce Checkpoints Updates</p>
@@ -55,17 +62,18 @@
                     <img src="./images/weather.jpg" alt="image for weather">
                     <section>
                         <h2>Weather</h2>
-                        <span>Weather subtitle</span>
-                        <p>Text about Weather</p>
-                        <p>Text about Weather</p>
-                        <p>Text about Weather</p>
+                            <p><strong>High:</strong> 41&deg;</p> 
+                            <p><strong>Low:</strong> 25&deg;</p>
+                            <p><strong>Chance of Precipitation:</strong> 2%</p>
+                            <p><strong>Wind:</strong> 4mph NW</p>
+                            <p><strong>Wind Chill: </strong><span id="windChill"></span>&deg;</p>  
                     </section>
                 </div>
                 <div>
                     <img src="./images/NR.png" alt="image for new releases">
                     <section>
                         <h2>New Releases</h2>
-                        <span>New Releases subtitle</span>
+                        <span>Coming soon</span>
                         <p>Text about NR</p>
                         <p>Text about NR</p>
                         <p>Text about NR</p>
@@ -130,7 +138,7 @@
             </section>
         </main>
         <footer>
-            <img class="footerImage" src="./images/CommerceCheckpoint.jpg" alt="footer logo">
+            <img class="footerImage" src="./images/CommerceCheckpoint.webp" alt="footer logo">
             &copy;<span id="year"></span> | Thiago Leite | WDD 230 Chamber of Commerce Project <span class="footer1"></span><span class="footer2">|</span> São Paulo | <a href="https://www.google.com.br/maps/place/R.+Santos+Dumont,+172+-+Vila+Bocaina,+Mau%C3%A1+-+SP,+09310-130/@-23.6685096,-46.457302,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce695ced884329:0x760a86e336b1e849!8m2!3d-23.6685145!4d-46.4551133" target="_blank">Map Link</a><br>
             <span id="updated"></span>
         </footer>
