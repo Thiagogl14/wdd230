@@ -64,11 +64,11 @@ header {
     display: grid;
 }
 header > div {
-    display: grid;
+    display: block;
     
 }
 header > div > img {
-    display: block;
+    /* display: block; */
     grid-column: 1;
     grid-row: span 2;
     justify-self: end;
@@ -79,8 +79,8 @@ header> div > span {
     padding-bottom: 1rem;
     justify-self: start;
     grid-column: 2;
-    padding-left: 10px;
-    margin-left: 80px;
+    /* padding-left: 10px;
+    margin-left: 80px; */
 }
 h1 {
     grid-column: 2;
@@ -214,9 +214,11 @@ div.social-links {
     grid-gap: 5px;
     grid-template-columns: repeat(3,50px);
     justify-items: center;
-    align-items: flex-start;
-    padding-left: 35px;
-    text-align: right;
+    /* align-items: flex-start; */
+    /* padding-left: 35px; */
+    /* text-align: right; */
+    justify-content: center;
+    margin-bottom: 2%;
 }
 div.social-links a {
     width: 33px;
@@ -335,7 +337,7 @@ footer {
   }
 
 #headerDate {
-    margin-left: 115px;
+    /* margin-left: 115px; */
     color: var(--default-light);
     padding: 1rem;
     border: dashed 1px var(--default-dark);
