@@ -495,18 +495,7 @@ main.discover picture figcaption {
 main.discover.refs {
     padding: 0 calc(100% - 1000px) 30px;
 }
-main.discover.refs picture {
-    max-width: 200px;
-}
-main.discover.refs picture img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 10px;
-    max-width: 200px;
-}
-main.discover.refs picture figcaption {
-    font-size: 0.8em;
-}
+
 main.discover > a {
     grid-column: 1 / -1;
 }
