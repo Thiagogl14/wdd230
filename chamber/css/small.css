@@ -191,3 +191,50 @@ section.quick-links{
     }
 
 }
+
+@media screen and (max-width: 710px) {
+    main.discover {
+        grid-template-columns: 1fr;
+    }
+    main.discover picture:last-child {
+        grid-column: span 1;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    @keyframes come-in {
+        from {
+            opacity: 0;
+            filter: blur(2px);
+            top: 0;
+        }
+        50% {
+            opacity: 0;
+            filter: blur(2px);
+            top: 0;
+        }
+        to {
+            top: -84px;
+            opacity: 1;
+            border: solid 1px var(--default-dark);
+        }
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+    header span {
+        font-size: 0.8rem;
+    }
+    div.hero {
+        max-height: 310px;
+    }
+    main.discover picture {
+        transform: scale(0.9);
+    }
+}
+@media screen and (max-width: 330px) {
+    main.discover picture {
+        transform: scale(0.8);
+    }
+}
