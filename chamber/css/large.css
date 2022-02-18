@@ -336,6 +336,20 @@ footer {
       
   }
 
+ .number_visits {
+    color: var(--default-light);
+    padding: 1rem;
+    border: dashed 1px var(--default-dark);
+    font-style: italic;
+    margin-bottom: 2%;
+    background-color: var(--default-dark);
+    /* grid-column: 1/3;
+    grid-row: 8;
+    justify-self: stretch;
+    text-align: center; */
+  }
+
+
 #headerDate {
     /* margin-left: 115px; */
     color: var(--default-light);
