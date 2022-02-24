@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Join us | Commerce Checkpoint</title>
+        <meta name="description" content="A page with a form to register for our services">
+        <link rel="shortcut icon" href="./../chamber/images/commerce_checkpoint.ico">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/large.css">
+        <link rel="stylesheet" href="./css/medium.css" media="(max-width: 1040px)">
+        <link rel="stylesheet" href="./css/small.css" media="(max-width: 850px)">
+    </head>
+    <body>
+        <div class="blocker-1"></div>
+        <div class="blocker-2"></div>
+        <header>
+            <div class="headerDiv">
+                <img class ="logo" src="./images/CommerceCheckpoint.webp" alt="header logo">
+                <h1>Commerce Checkpoint</h1>
+                <span class="subtitle">We've got the commerce info you need</span>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.png" alt="Instagram logo"></a>
+                       <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png" alt="Facebook logo"></a>
+                       <a href="https://www.youtube.com/" target="_blank"><img  src="./images/youtube.png" alt="Youtube logo"></a> 
+                </div>
+                <span id="headerDate"></span>
+                <span id="banner"></span>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li class="toggler">
+                    <a onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a class=" " href="./index.html">Home</a></li>
+                <li><a class="at" href="./join.html">Join us</a></li>
+                <li><a class="  " href="#">Business Partners</a></li>
+                <li><a class="  " href="./discover.html">Discover</a></li>
+            </ul>
+        </nav>
+        <main>
+            <main>
+                <div class="form">
+                    <h2>Join our membership</h2>
+                    <form action="thanks.html">
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <label>First name<span>*</span>
+                                <input name="name" pattern="^[a-zA-Z ]{5,}[a-zA-Z]$" type="text" required>
+                            </label>
+                            <label>Last name<span>*</span>
+                                <input name="name" pattern="^[a-zA-Z ]{5,}[a-zA-Z]$" type="text" required>
+                            </label>
+                            <label>Email
+                                <input name="email" type="email" placeholder="someone@gmail.com">
+                            </label>
+                            <label>Phone Number<span>*</span>
+                                <input name="phone" type="tel" minlength="7" required>
+                            </label>
+                            <label>Business Position Title<span>*</span>
+                                <input name="title" pattern="^[a-zA-Z ]{5,}[a-zA-Z]$" type="text" minlength="7" required>
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Business Information</legend>
+                            <label>Business Name<span>*</span>
+                                <input name="business-name" required>
+                            </label>
+                            <label>Membership
+                                <input list="membership" name="membership">
+                            </label>
+                            <datalist id="membership">
+                                <option value="Non-profit Membership">
+                                <option value="Bronze Membership">
+                                <option value="Silver Membership">
+                                <option value="Gold membership">
+                            </datalist>
+                            <label>Business Description?
+                                <textarea name="business-description"></textarea>
+                            </label>
+                        </fieldset>
+                        <input type="submit" value="Apply">
+                    </form>
+                    <section class="help">
+                        <img src="./images/memberships.png" alt="form-help">
+                        <h2 class="title">About our memberships</h2>
+                        <p class="details">- Non-profit Level Ideal for new businesses, home-based businesses, or sole-proprietor without employees</p>
+                        <p class="details">- Bronze Level Ideal for businesses with 30 or fewer employees.</p>
+                        <p class="details">- Silver Level Recommended for businesses with 200 or fewer employees.</p>
+                        <p class="details">- Gold Level Recommended for businesses with more than 200 employees. Ideal for those planning to attend multiple Signature events and prefer to be billed for all events and benefits only once per year.</p>
+                    </section>
+                </div>
+        </main>
+        <footer>
+            <img class="footerImage" src="./images/CommerceCheckpoint.webp" alt="footer logo">
+            &copy;<span id="year"></span> | Thiago Leite | WDD 230 Chamber of Commerce Project <span class="footer1"></span><span class="footer2">|</span> São Paulo | <a href="https://www.google.com.br/maps/place/R.+Santos+Dumont,+172+-+Vila+Bocaina,+Mau%C3%A1+-+SP,+09310-130/@-23.6685096,-46.457302,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce695ced884329:0x760a86e336b1e849!8m2!3d-23.6685145!4d-46.4551133" target="_blank">Map Link</a><br>
+            <span id="updated"></span>
+        </footer>
+          <script src="./js/script.js"></script>
+    </body>
+</html>

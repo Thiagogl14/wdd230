@@ -199,6 +199,18 @@ section.quick-links{
     main.discover picture:last-child {
         grid-column: span 1;
     }
+    form {
+        margin: 0 auto;
+    }
+    div.form h2 {
+        text-align: center;
+    }
+    div.form {
+        grid-template-columns: 1fr;
+    }
+    div.form section.help {
+        display: none;
+    }
 }
 
 
@@ -238,3 +250,4 @@ section.quick-links{
         transform: scale(0.8);
     }
 }
+
