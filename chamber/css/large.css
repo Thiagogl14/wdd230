@@ -582,7 +582,7 @@ div label {
 div input + label {
     padding-top: 0;
 }
-form input:not([type="range"]), form select, form textarea {
+form select, form textarea {
     outline: none;
     box-shadow: 0 0 0 7px transparent;
     transition: box-shadow 0.3s;
@@ -619,6 +619,7 @@ form input[type="submit"] {
     text-shadow: 1px 1px 1px var(--default-dark);
     width: 100%;
     margin-top: 10px;
+    box-shadow: unset;
 }
 form input[type="submit"]:hover {
     cursor: pointer;
@@ -629,14 +630,17 @@ form textarea {
     height: 4em;
     margin-top: 5px;
 }
+
+form input {
+    box-shadow: inset 0 0 0 2px green, 0 0 0 7px green;
+    transition: box-shadow 0.3s;
+}
+
 form input:required:not(:valid) {
     box-shadow: inset 0 0 0 2px red, 0 0 0 7px transparent;
     transition: box-shadow 0.3s;
 }
-form input:required:valid {
-    box-shadow: inset 0 0 0 2px var(--main-color), 0 0 0 7px transparent;
-    transition: box-shadow 0.3s;
-}
+
 form input:required:not(:valid):focus {
     box-shadow: inset 0 0 0 2px red, 0 0 0 4px var(--main-color);
     transition: box-shadow 0.3s;

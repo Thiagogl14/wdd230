@@ -57,8 +57,8 @@
                             <label>Phone Number<span>*</span>
                                 <input name="phone" type="tel" minlength="7" required>
                             </label>
-                            <label>Business Position Title<span>*</span>
-                                <input name="title" pattern="^[a-zA-Z ]{5,}[a-zA-Z]$" type="text" minlength="7" required>
+                            <label>Business Position Title
+                                <input name="title" pattern="^[a-zA-Z ]{5,}[a-zA-Z]$" type="text" minlength="7">
                             </label>
                         </fieldset>
                         <fieldset>
@@ -79,6 +79,7 @@
                                 <textarea name="business-description"></textarea>
                             </label>
                         </fieldset>
+                        <div id="time" hidden></div>
                         <input type="submit" value="Apply">
                     </form>
                     <section class="help">
@@ -97,5 +98,6 @@
             <span id="updated"></span>
         </footer>
           <script src="./js/script.js"></script>
+          <script src="./js/time.js"></script>
     </body>
 </html>
