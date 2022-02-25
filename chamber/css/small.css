@@ -196,7 +196,7 @@ section.quick-links{
     main.discover {
         grid-template-columns: 1fr;
     }
-    main.discover picture:last-child {
+    main.discover figure:last-child {
         grid-column: span 1;
     }
     form {
@@ -241,12 +241,12 @@ section.quick-links{
     div.hero {
         max-height: 310px;
     }
-    main.discover picture {
+    main.discover figure {
         transform: scale(0.9);
     }
 }
 @media screen and (max-width: 330px) {
-    main.discover picture {
+    main.discover figure {
         transform: scale(0.8);
     }
 }

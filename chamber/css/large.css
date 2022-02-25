@@ -480,7 +480,7 @@ main.discover h2 {
     margin-top: 1.25em;
     grid-column: 1 / -1;
 }
-main.discover picture {
+main.discover figure {
     transform: scale(0);
     max-width: 300px;
     box-shadow: 1px 1px 3px var(--default-dark), inset 0 0 3px var(--default-dark);
@@ -489,19 +489,19 @@ main.discover picture {
     overflow: hidden;
     transition: all 0.3s;
 }
-main.discover picture.in {
+main.discover figure.in {
     animation: img-come-in 1s;
     transform: scale(1);
 }
-main.discover picture:hover {
+main.discover figure:hover {
     transform: translate(-6px, -6px);
     box-shadow: 6px 6px 12px var(--default-dark), inset 0 0 3px var(--default-dark);
 }
-main.discover picture img {
+main.discover figure img {
     display: block;
     border-radius: 10px;
 }
-main.discover picture figcaption {
+main.discover figure figcaption {
     padding: 0.5em;
     text-align: center;
 }
@@ -542,7 +542,7 @@ main.discover > a {
     main.discover {
         grid-template-columns: 1fr 1fr;
     }
-    main.discover picture:last-child {
+    main.discover figure:last-child {
         grid-column: span 2;
     }
 }
