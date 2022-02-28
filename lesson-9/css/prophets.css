@@ -7,8 +7,6 @@ h1 {
     margin: .5rem 0;
   }
   
-  
-  
   .cards {
     display: grid;
     grid-template-columns: 1fr;
