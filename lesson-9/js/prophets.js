@@ -6,7 +6,12 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const prophets = jsonObject['prophets'];
-    // function displayProphets (prophets) {
+
+    displayProphets(prophets);
+    
+  });
+
+  function displayProphets (prophets) {
     for (let i = 0; i < prophets.length; i++ ) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
@@ -19,6 +24,7 @@ fetch(requestURL)
         birthplace.textContent = 'Place of Birth: ' + prophets[i].birthplace;
         image.setAttribute('src', prophets[i].imageurl);
         image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname +' - ' + prophets[i].order);
+        image.setAttribute('loading', 'lazy');
 
         card.appendChild(h2);
         card.appendChild(birthdate);
@@ -27,8 +33,5 @@ fetch(requestURL)
 
         document.querySelector('div.cards').appendChild(card);
     
-        
     }
-
-
-  });
+  }
