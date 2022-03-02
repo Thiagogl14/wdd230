@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Thank you | Commerce Checkpoint</title>
-        <meta name="description" content="Thanks for registering!">
+        <title>Business Directory | Commerce Checkpoint</title>
+        <meta name="description" content="Commerce Checkpoint's Business Directory Page. It contains cards about business in the region.">
         <link rel="shortcut icon" href="./../chamber/images/commerce_checkpoint.ico">
         <link rel="stylesheet" href="./css/normalize.css">
         <link rel="stylesheet" href="./css/large.css">
@@ -33,21 +33,32 @@
                 <li class="toggler">
                     <a onclick="toggleMenu()">&#9776; Menu</a></li>
                 <li><a class=" " href="./index.html">Home</a></li>
-                <li><a class="at" href="./join.html">Join us</a></li>
-                <li><a class="  " href="./css/">Business Directory</a></li>
+                <li><a class="  " href="./join.html">Join us</a></li>
+                <li><a class="at" href="./directory.html">Business Directory</a></li>
                 <li><a class="  " href="./discover.html">Discover</a></li>
             </ul>
         </nav>
         <main>
-            <main>
-                <h2>Thanks!</h2>
-            <p>Thanks for registering! You will receive a confirmation e-mail as soon as your membership is validated.</p>
+ >         <h2 class="main-title">Directory</h2>
+           <div class="button-box">
+                <button class="directory-toggle" onclick="listToggleOff()">
+                    <img src="images/grid.png" alt="grid toggle" id="grid-icon" class="toggle-icon">
+                </button>
+                <button class="directory-toggle" onclick="gridToggleOff()">
+                    <img src="images/list.png" alt="list toggle" id="list-icon" class="toggle-icon">
+                </button>
+            </div>
+            <section class="directory-grid grid-mode">
+            </section>
         </main>
         <footer>
             <img class="footerImage" src="./images/CommerceCheckpoint.webp" alt="footer logo">
             &copy;<span id="year"></span> | Thiago Leite | WDD 230 Chamber of Commerce Project <span class="footer1"></span><span class="footer2">|</span> São Paulo | <a href="https://www.google.com.br/maps/place/R.+Santos+Dumont,+172+-+Vila+Bocaina,+Mau%C3%A1+-+SP,+09310-130/@-23.6685096,-46.457302,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce695ced884329:0x760a86e336b1e849!8m2!3d-23.6685145!4d-46.4551133" target="_blank">Map Link</a><br>
             <span id="updated"></span>
+            <p class="number_visits"><span class="label">You visited this website: </span><span class="visits"></span> times</p><hr>
         </footer>
           <script src="./js/script.js"></script>
+          <script src="./js/grid.js"></script>
+          <script src="./js/directory.js"></script>
     </body>
 </html>

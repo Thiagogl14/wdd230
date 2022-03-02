@@ -721,3 +721,6 @@ section.submitted img {
     width: 150px;
 }
 
+.grid-mode {
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -251,3 +251,38 @@ section.quick-links{
     }
 }
 
+.directory-toggle {
+    background: none;
+    border: none;
+}
+
+.toggle-icon{
+    width: 26px;
+}
+
+.directory-card {
+    border: 3px solid var(--main-color);
+    background-color: var(--default-light);
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.grid-mode {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.list-mode {
+    display: block;
+}
+
+.list-mode .directory-card {
+    display: flex;
+}
+
+.card-img {
+    margin-left: 4rem;
+    max-width: 200px;
+    padding: 2px;
+    border: 2px solid var(--default-light);
+}
