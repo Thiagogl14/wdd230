@@ -1,4 +1,4 @@
-const directoryURL = '';
+const directoryURL = 'https://github.com/Thiagogl14/wdd230/blob/main/chamber/js/data.json';
 fetch(directoryURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -38,7 +38,7 @@ fetch(directoryURL)
                 text.appendChild(email);
                 email.classList.add('card-email');
             }
-            
+
             if (cardContent.logo != "") {
                 let logo = document.createElement('img');
                 logo.setAttribute('src', cardContent.logo);
