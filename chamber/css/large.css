@@ -724,3 +724,7 @@ section.submitted img {
 .grid-mode {
     grid-template-columns: repeat(3, 1fr);
 }
+
+.main-title {
+    align-items: center;
+}
