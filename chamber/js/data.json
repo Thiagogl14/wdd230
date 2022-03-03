@@ -2,98 +2,98 @@
     "businesses": [
         {
             "name": "Tim",
-            "address": "Avenida Deputado Beneditp Matarazzo, 9403 - Jardim Paulista",
+            "address": "Avenida Deputado Benedito Matarazzo, 9403 - Jardim Paulista",
             "phone": "(11) 94960-0000",
             "logo": "./images/tim.jpg",
             "website": "https://tim.com.br/",
             "email": ""
         },
         {
-            "name": "Tim",
-            "address": "Avenida Deputado Beneditp Matarazzo, 9403 - Jardim Paulista",
-            "phone": "(11) 94960-0000",
-            "logo": "./images/tim.jpg",
-            "website": "https://tim.com.br/",
+            "name": "Casa do Pão de Queijo",
+            "address": "Av. Gov. Mario Covas Júnior, 01 - 172 - Centro, Mauá - SP",
+            "phone": "(11) 4543-1082",
+            "logo": "./images/pao_queijo.jpg",
+            "website": "http://www.casadopaodequeijo.com.br/",
             "email": ""
         },
         {
-            "name": "Tim",
-            "address": "Avenida Deputado Beneditp Matarazzo, 9403 - Jardim Paulista",
-            "phone": "(11) 94960-0000",
-            "logo": "./images/tim.jpg",
-            "website": "https://tim.com.br/",
+            "name": "Renner",
+            "address": "Rua Giovanni Battista Pirelli, 155 - Vila Homero Thon, Santo André - SP",
+            "phone": "(11) 4501-2800",
+            "logo": "./images/renner.png",
+            "website": "https://www.lojasrenner.com.br/",
+            "email": "atendimento@lojasrenner.com.br"
+        },
+        {
+            "name": "Fast Shop",
+            "address": "Avenida Pereira Barreto, 42 - Vila Gilda, Santo André - SP",
+            "phone": "(11) 3232-3650",
+            "logo": "./images/fast.jpg",
+            "website": "https://www.fastshop.com.br/web/",
             "email": ""
         },
         {
-            "name": "Tim",
-            "address": "Avenida Deputado Beneditp Matarazzo, 9403 - Jardim Paulista",
-            "phone": "(11) 94960-0000",
-            "logo": "./images/tim.jpg",
-            "website": "https://tim.com.br/",
+            "name": "Kopenhagen",
+            "address": "R. Votuporanga, 111 - Vila Dora, Santo André - SP",
+            "phone": "(11) 4992-2759",
+            "logo": "./images/kopenhagen.jpg",
+            "website": "https://www.kopenhagen.com.br/",
+            "email": "sac@kopenhagen.com.br"
+        },
+        {
+            "name": "Riachuelo",
+            "address": "Rua Giovanni Batistta Pirelli, 155 - Vila Homero Thon, Santo André - SP",
+            "phone": "(11) 3563-8200",
+            "logo": "./images/riachuelo.png",
+            "website": "https://www.riachuelo.com.br/",
             "email": ""
         },
         {
-            "name": "Tim",
-            "address": "Avenida Deputado Beneditp Matarazzo, 9403 - Jardim Paulista",
-            "phone": "(11) 94960-0000",
-            "logo": "./images/tim.jpg",
-            "website": "https://tim.com.br/",
+            "name": "Centauro",
+            "address": "Av. Paulista, 1227 - Bela Vista, São Paulo - SP",
+            "phone": "(11) 4502-1254",
+            "logo": "./images/centauro.png",
+            "website": "https://www.centauro.com.br/",
             "email": ""
         },
         {
-            "name": "Tim",
-            "address": "Avenida Deputado Beneditp Matarazzo, 9403 - Jardim Paulista",
-            "phone": "(11) 94960-0000",
-            "logo": "./images/tim.jpg",
-            "website": "https://tim.com.br/",
+            "name": "Americanas",
+            "address": "Av. Pres. Castelo Branco, 2079 - Jardim Zaira, Mauá - SP",
+            "phone": "(11) 97078-2806",
+            "logo": "./images/americanas.jpg",
+            "website": "https://www.americanas.com.br/",
+            "email": "sac.atendimento@americanas.com"
+        },
+        {
+            "name": "Kalunga",
+            "address": "R. Manoel Coelho, 460 - Centro, São Caetano do Sul - SP",
+            "phone": "(11) 3346-9966",
+            "logo": "./images/kalunga.png",
+            "website": "https://www.kalunga.com.br/",
+            "email": "contato@kalunga.com.br"
+        },
+        {
+            "name": "Madero",
+            "address": "Av. Padre Anchieta, 159 - Jardim, Santo André - SP",
+            "phone": "(11) 4979-4848",
+            "logo": "./images/madero.png",
+            "website": "https://www.restaurantemadero.com.br/pt",
             "email": ""
         },
         {
-            "name": "Tim",
-            "address": "Avenida Deputado Beneditp Matarazzo, 9403 - Jardim Paulista",
-            "phone": "(11) 94960-0000",
-            "logo": "./images/tim.jpg",
-            "website": "https://tim.com.br/",
-            "email": ""
+            "name": "Vivo",
+            "address": "R. Faustino Pereira Rito, 21 - Centro, Mauá - SP",
+            "phone": "(11) 93313-7007",
+            "logo": "./images/vivo.png",
+            "website": "https://www.vivo.com.br/",
+            "email": "fale_conosco@vivo.com.br"
         },
         {
-            "name": "Tim",
-            "address": "Avenida Deputado Beneditp Matarazzo, 9403 - Jardim Paulista",
-            "phone": "(11) 94960-0000",
-            "logo": "./images/tim.jpg",
-            "website": "https://tim.com.br/",
-            "email": ""
-        },
-        {
-            "name": "Tim",
-            "address": "Avenida Deputado Beneditp Matarazzo, 9403 - Jardim Paulista",
-            "phone": "(11) 94960-0000",
-            "logo": "./images/tim.jpg",
-            "website": "https://tim.com.br/",
-            "email": ""
-        },
-        {
-            "name": "Tim",
-            "address": "Avenida Deputado Beneditp Matarazzo, 9403 - Jardim Paulista",
-            "phone": "(11) 94960-0000",
-            "logo": "./images/tim.jpg",
-            "website": "https://tim.com.br/",
-            "email": ""
-        },
-        {
-            "name": "Tim",
-            "address": "Avenida Deputado Beneditp Matarazzo, 9403 - Jardim Paulista",
-            "phone": "(11) 94960-0000",
-            "logo": "./images/tim.jpg",
-            "website": "https://tim.com.br/",
-            "email": ""
-        },
-        {
-            "name": "Tim",
-            "address": "Avenida Deputado Beneditp Matarazzo, 9403 - Jardim Paulista",
-            "phone": "(11) 94960-0000",
-            "logo": "./images/tim.jpg",
-            "website": "https://tim.com.br/",
+            "name": "Magazine Luíza",
+            "address": " Av. Barão de Mauá, 122 - Centro, Mauá - SP",
+            "phone": "(11) 92007-2706",
+            "logo": "./images/magulu.png",
+            "website": "https://lojas.magazineluiza.com.br/",
             "email": ""
         }
     ]
