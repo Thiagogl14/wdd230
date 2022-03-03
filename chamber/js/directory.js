@@ -1,4 +1,4 @@
-const directoryURL = 'https://github.com/Thiagogl14/wdd230/blob/main/chamber/js/data.json';
+const directoryURL = 'https://thiagogl14.github.io/wdd230/chamber/js/data.json';
 fetch(directoryURL)
     .then((response) => response.json())
     .then((jsObject) => {

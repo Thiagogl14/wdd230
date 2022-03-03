@@ -265,11 +265,18 @@ section.quick-links{
     background-color: var(--default-light);
     padding: 1rem;
     margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .grid-mode {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.grid-mode img {
+    display: block;
+    /* float: left; */
 }
 
 .list-mode {
@@ -281,9 +288,12 @@ section.quick-links{
 }
 
 .card-img {
-    margin-left: 4rem;
+    margin-right: 2rem;
     max-width: 200px;
     padding: 2px;
     border: 2px solid var(--default-light);
 }
 
+.list-mode img {
+    display: none;
+}
