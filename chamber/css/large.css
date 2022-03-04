@@ -723,6 +723,7 @@ section.submitted img {
 
 .grid-mode {
     grid-template-columns: 33% 33% 33%;
+    
 }
 
 .main-title {
@@ -732,6 +733,7 @@ section.submitted img {
 .directory-card {
     flex-direction: column;
 }
+
 
 /* @media screen and (min-width: 851px) and (max-width: 1111px) {
     nav > ul {
