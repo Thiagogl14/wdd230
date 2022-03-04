@@ -10,5 +10,6 @@ body {
 
 .directory-card {
     flex-direction: row-reverse;
+    display: block;
 }
 }

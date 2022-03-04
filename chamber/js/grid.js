@@ -7,3 +7,4 @@ function listToggleOff(){
     document.querySelector('.directory-grid').classList.remove('list-mode');
     document.querySelector('.directory-grid').classList.add('grid-mode');
 }
+

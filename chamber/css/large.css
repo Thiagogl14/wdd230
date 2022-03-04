@@ -722,9 +722,23 @@ section.submitted img {
 }
 
 .grid-mode {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 33% 33% 33%;
 }
 
 .main-title {
     align-items: center;
 }
+
+.directory-card {
+    flex-direction: column;
+}
+
+/* @media screen and (min-width: 851px) and (max-width: 1111px) {
+    nav > ul {
+        display:grid;
+    }
+
+    nav > ul.toggler {
+        display: none;
+    }
+} */

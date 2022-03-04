@@ -6,6 +6,7 @@ header {
 }
 nav ul {
     grid-template-columns: 1fr;
+    /* display: none; */
 }
 nav ul .toggler {
     display: block;
@@ -270,7 +271,7 @@ section.quick-links{
 }
 
 .grid-mode {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1fr;
 }
 
