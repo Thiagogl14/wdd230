@@ -66,15 +66,21 @@
                             <label>Business Name<span>*</span>
                                 <input name="business-name" required>
                             </label>
-                            <label>Membership
+                            <!-- <label>Membership
                                 <input list="membership" name="membership">
                             </label>
-                            <datalist id="membership">
+                            <div id="membership">
                                 <option value="Non-profit Membership">
                                 <option value="Bronze Membership">
                                 <option value="Silver Membership">
                                 <option value="Gold membership">
-                            </datalist>
+                            </div> -->
+                            <div>Membership
+                                <label class="container"><input type="radio" name="non-profit" value="Non-profit Membership"> Non-profit Membership</label>
+                                <label class="container"><input type="radio" name="Bronze" value="Bronze Membership"> Bronze Membership</label>
+                                <label class="container"><input type="radio" name="Silver" value="Silver Membership"> Silver Membership</label>
+                                <label class="container"><input type="radio" name="Gold" value="Gold Membership"> Gold Membership</label>
+                            </div>
                             <label>Business Description?
                                 <textarea name="business-description"></textarea>
                             </label>
