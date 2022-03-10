@@ -37,12 +37,12 @@ function toggleMenu() {
     else document.querySelector(".toggler > a").innerHTML = "&#10006; Close"
                         }
 
-var temp= document.getElementById("higher").textContent;
-var wSpeed= document.getElementById("wind").textContent;
-var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
+// var temp= document.getElementById("higher").textContent;
+// var wSpeed= document.getElementById("wind").textContent;
+// var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
 
-var windChill= Math.round(windChill);
-document.getElementById("wind_chill").innerHTML= windChill;
+// var windChill= Math.round(windChill);
+// document.getElementById("wind_chill").innerHTML= windChill;
 
 let pages = {
     'Home': './',
