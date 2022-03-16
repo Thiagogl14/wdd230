@@ -3,13 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Business Directory | Commerce Checkpoint</title>
-        <meta name="description" content="Commerce Checkpoint's Business Directory Page. It contains cards about business in the region.">
+        <title>Contact us | Commerce Checkpoint</title>
+        <meta name="description" content="A page with our contacts">
         <link rel="shortcut icon" href="./../chamber/images/commerce_checkpoint.ico">
         <link rel="stylesheet" href="./css/normalize.css">
-        <link rel="stylesheet" href="./css/small.css"> 
-        <link rel="stylesheet" href="./css/medium.css">
         <link rel="stylesheet" href="./css/large.css">
+        <link rel="stylesheet" href="./css/medium.css" media="(max-width: 1040px)">
+        <link rel="stylesheet" href="./css/small.css" media="(max-width: 850px)">
     </head>
     <body>
         <div class="blocker-1"></div>
@@ -33,23 +33,22 @@
                 <li class="toggler">
                     <a onclick="toggleMenu()">&#9776; Menu</a></li>
                 <li><a class=" " href="./index.html">Home</a></li>
-                <li><a class="  " href="./join.html">Join us</a></li>
-                <li><a class="at" href="./directory.html">Business Directory</a></li>
+                <li><a class=" " href="./join.html">Join us</a></li>
+                <li><a class="  " href="./directory.html">Business Directory</a></li>
                 <li><a class="  " href="./discover.html">Discover</a></li>
-                <li><a class="  " href="./contact.html">Contact us</a></li>
+                <li><a class="at" href="./contact.html">Contact us</a></li>
             </ul>
         </nav>
         <main>
-          <h2 class="main-title">Directory</h2>
-           <div class="button-box">
-                <button class="directory-toggle" onclick="listToggleOff()">
-                    <img src="images/grid.png" alt="grid toggle" id="grid-icon" class="toggle-icon">
-                </button>
-                <button class="directory-toggle" onclick="gridToggleOff()">
-                    <img src="images/list.png" alt="list toggle" id="list-icon" class="toggle-icon">
-                </button>
-            </div>
-            <div class="directory-grid grid-mode">
+            <div class="contact">
+                <h2>Our Contacts</h2>
+                <section class="help">
+                    <img src="./images/contact.png" alt="contact-help">
+                    <h2>Have doubts? Just let us know!</h2>
+                    <p><strong>Phone Number:</strong> +55 11 4002-8922</p>
+                    <p><strong>E-mail:</strong> info@commerce-checkpoint.org</p>
+                    <p><strong> Office Hours:</strong> We open at 9AM and close at 9PM.</p>
+                </section>
             </div>
         </main>
         <footer>
@@ -58,7 +57,6 @@
             <span id="updated"></span>
         </footer>
           <script src="./js/script.js"></script>
-          <script src="./js/grid.js"></script>
-          <script src="./js/directory.js"></script>
+          <script src="./js/time.js"></script>
     </body>
 </html>

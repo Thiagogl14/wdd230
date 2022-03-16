@@ -6,7 +6,8 @@
             "phone": "(11) 94960-0000",
             "logo": "./images/tim.jpg",
             "website": "https://tim.com.br/",
-            "email": ""
+            "email": "",
+            "standard": "Gold"
         },
         {
             "name": "Casa do Pão de Queijo",
@@ -14,7 +15,8 @@
             "phone": "(11) 4543-1082",
             "logo": "./images/pao_queijo.jpg",
             "website": "http://www.casadopaodequeijo.com.br/",
-            "email": ""
+            "email": "",
+            "standard": "Gold"
         },
         {
             "name": "Renner",
@@ -22,7 +24,8 @@
             "phone": "(11) 4501-2800",
             "logo": "./images/renner.png",
             "website": "https://www.lojasrenner.com.br/",
-            "email": "atendimento@lojasrenner.com.br"
+            "email": "atendimento@lojasrenner.com.br",
+            "standard": "Gold"
         },
         {
             "name": "Fast Shop",
@@ -30,7 +33,8 @@
             "phone": "(11) 3232-3650",
             "logo": "./images/fast.jpg",
             "website": "https://www.fastshop.com.br/web/",
-            "email": ""
+            "email": "",
+            "standard": "Gold"
         },
         {
             "name": "Kopenhagen",
@@ -38,7 +42,8 @@
             "phone": "(11) 4992-2759",
             "logo": "./images/kopenhagen.jpg",
             "website": "https://www.kopenhagen.com.br/",
-            "email": "sac@kopenhagen.com.br"
+            "email": "sac@kopenhagen.com.br",
+            "standard": "Silver"
         },
         {
             "name": "Riachuelo",
@@ -46,7 +51,8 @@
             "phone": "(11) 3563-8200",
             "logo": "./images/riachuelo.png",
             "website": "https://www.riachuelo.com.br/",
-            "email": ""
+            "email": "",
+            "standard": "Silver"
         },
         {
             "name": "Centauro",
@@ -54,7 +60,8 @@
             "phone": "(11) 4502-1254",
             "logo": "./images/centauro.png",
             "website": "https://www.centauro.com.br/",
-            "email": ""
+            "email": "",
+            "standard": "Silver"
         },
         {
             "name": "Americanas",
@@ -62,7 +69,8 @@
             "phone": "(11) 97078-2806",
             "logo": "./images/americanas.jpg",
             "website": "https://www.americanas.com.br/",
-            "email": "sac.atendimento@americanas.com"
+            "email": "sac.atendimento@americanas.com",
+            "standard": "Silver"
         },
         {
             "name": "Kalunga",
@@ -70,7 +78,8 @@
             "phone": "(11) 3346-9966",
             "logo": "./images/kalunga.png",
             "website": "https://www.kalunga.com.br/",
-            "email": "contato@kalunga.com.br"
+            "email": "contato@kalunga.com.br",
+            "standard": "Bronze"
         },
         {
             "name": "Madero",
@@ -78,7 +87,8 @@
             "phone": "(11) 4979-4848",
             "logo": "./images/madero.png",
             "website": "https://www.restaurantemadero.com.br/pt",
-            "email": ""
+            "email": "",
+            "standard": "Bronze"
         },
         {
             "name": "Vivo",
@@ -86,7 +96,8 @@
             "phone": "(11) 93313-7007",
             "logo": "./images/vivo.png",
             "website": "https://www.vivo.com.br/",
-            "email": "fale_conosco@vivo.com.br"
+            "email": "fale_conosco@vivo.com.br",
+            "standard": "Bronze"
         },
         {
             "name": "Magazine Luíza",
@@ -94,7 +105,8 @@
             "phone": "(11) 92007-2706",
             "logo": "./images/magalu.png",
             "website": "https://lojas.magazineluiza.com.br/",
-            "email": ""
+            "email": "",
+            "standard": "Bronze"
         }
     ]
 }

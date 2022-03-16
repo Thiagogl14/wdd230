@@ -100,7 +100,7 @@ nav > ul {
     padding: 0;
     display: grid;
     list-style: none;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     box-shadow: 0 0 10px var(--default-dark);
 }
 
@@ -892,4 +892,43 @@ section.summary span.colored {
     text-align: left;
     padding-left: 5px;
     color: var(--main-color);
+}
+
+div.contact {
+    align-items: flex-start;
+    position: relative;
+    display: grid;
+}
+div.contact h2 {
+    grid-column: 1 / span 2;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+div.contact section.help {
+    transition: opacity 0.3s, transform 0.3s;
+    border: solid 1px var(--default-dark);
+    box-shadow: 3px 3px 10px #555555;
+    width: calc(100% - 2.5em);
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    max-width: 450px;
+    position: sticky;
+    grid-column: 2;
+    top: 70px;
+}
+div.contact section.help img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+div.contact section.help h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+div.contact section.help p {
+    font-size: 0.9rem;
+    text-align: center;
 }

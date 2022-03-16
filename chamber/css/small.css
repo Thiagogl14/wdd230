@@ -4,6 +4,7 @@ body {
 header {
     box-shadow: 0 0 10px var(--default-dark);
 }
+
 nav ul {
     grid-template-columns: 1fr;
     /* display: none; */
