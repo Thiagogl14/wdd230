@@ -7,7 +7,6 @@
             "logo": "./images/tim.jpg",
             "website": "https://tim.com.br/",
             "email": ""
-            "standard": "Gold"
         },
         {
             "name": "Casa do Pão de Queijo",
@@ -16,7 +15,6 @@
             "logo": "./images/pao_queijo.jpg",
             "website": "http://www.casadopaodequeijo.com.br/",
             "email": ""
-            "standard": "Gold"
         },
         {
             "name": "Renner",
@@ -25,7 +23,6 @@
             "logo": "./images/renner.png",
             "website": "https://www.lojasrenner.com.br/",
             "email": "atendimento@lojasrenner.com.br"
-            "standard": "Gold"
         },
         {
             "name": "Fast Shop",
@@ -34,7 +31,6 @@
             "logo": "./images/fast.jpg",
             "website": "https://www.fastshop.com.br/web/",
             "email": ""
-            "standard": "Gold"
         },
         {
             "name": "Kopenhagen",
@@ -43,7 +39,6 @@
             "logo": "./images/kopenhagen.jpg",
             "website": "https://www.kopenhagen.com.br/",
             "email": "sac@kopenhagen.com.br"
-            "standard": "Silver"
         },
         {
             "name": "Riachuelo",
@@ -52,7 +47,6 @@
             "logo": "./images/riachuelo.png",
             "website": "https://www.riachuelo.com.br/",
             "email": ""
-            "standard": "Silver"
         },
         {
             "name": "Centauro",
@@ -61,7 +55,6 @@
             "logo": "./images/centauro.png",
             "website": "https://www.centauro.com.br/",
             "email": ""
-            "standard": "Silver"
         },
         {
             "name": "Americanas",
@@ -70,7 +63,6 @@
             "logo": "./images/americanas.jpg",
             "website": "https://www.americanas.com.br/",
             "email": "sac.atendimento@americanas.com"
-            "standard": "Silver"
         },
         {
             "name": "Kalunga",
@@ -79,7 +71,6 @@
             "logo": "./images/kalunga.png",
             "website": "https://www.kalunga.com.br/",
             "email": "contato@kalunga.com.br"
-            "standard": "Bronze"
         },
         {
             "name": "Madero",
@@ -88,7 +79,6 @@
             "logo": "./images/madero.png",
             "website": "https://www.restaurantemadero.com.br/pt",
             "email": ""
-            "standard": "Bronze"
         },
         {
             "name": "Vivo",
@@ -97,7 +87,6 @@
             "logo": "./images/vivo.png",
             "website": "https://www.vivo.com.br/",
             "email": "fale_conosco@vivo.com.br"
-            "standard": "Bronze"
         },
         {
             "name": "Magazine Luíza",
@@ -106,7 +95,6 @@
             "logo": "./images/magalu.png",
             "website": "https://lojas.magazineluiza.com.br/",
             "email": ""
-            "standard": "Bronze"
         }
     ]
 }
