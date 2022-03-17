@@ -932,3 +932,29 @@ div.contact section.help p {
     font-size: 0.9rem;
     text-align: center;
 }
+
+main div section, #spotlights section {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#spotlights {
+    grid-row: 1 / span 3;
+    grid-column: 3;
+    width: 90%;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#spotlights section {
+    border: none;
+}
+
+#spotlight-3 {
+    display: block;
+}

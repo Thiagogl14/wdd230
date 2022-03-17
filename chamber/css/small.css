@@ -308,3 +308,49 @@ section.quick-links{
 .list-mode img {
     display: none;
 }
+
+#spotlights section {
+    width: 85%;
+    height: 250px;
+    margin: 1em auto;
+    background-color: var(--main-color);
+    padding: 1em;
+    color: var(--default-light);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#spotlights section {
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 0;
+}
+
+#spotlights {
+    padding: .5em;
+    margin: .5em auto;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+#spotlights h3 {
+    margin-top: .25em;
+    margin-bottom: .5em;
+    font-size: 18pt;
+}
+
+#spotlights a {
+    color: var(--default-light);
+}
+
+#spotlights img {
+    width: 100px;
+}
+
+
+.spotlight-contact {
+    padding-top: .25em;
+    border-top: 1px solid var(--default-light);
+}
+
+
+#spotlight-3 {display: none;}
