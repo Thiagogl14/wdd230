@@ -749,13 +749,13 @@ section.submitted img {
         display: none;
     }
 } */
-
+/* 
 @supports (not(-webkit-appearance: none)) and (not(-moz-appearance: none)) {
     form label input[type="radio"] {
         display: initial;
         width: auto;
     }
-}
+} */
 @supports (-webkit-appearance: none) or (-moz-appearance: none) {
     .container {
         position: relative;
