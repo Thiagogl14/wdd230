@@ -1,4 +1,4 @@
-// const templeInfoURL = 'https://jessicasi.github.io/assignments/temple-inn-and-suites/data/closureInfo.json';
+const templeInfoURL = 'https://thiagogl14.github.io/wdd230/temple/data/closureInfo.json';
 let templeInfoRequest = new XMLHttpRequest();
 templeInfoRequest.open('GET', templeInfoURL);
 templeInfoRequest.responseType = 'json';
