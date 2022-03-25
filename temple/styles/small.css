@@ -1,8 +1,8 @@
 body {
-    background-color: #DFD7D2;
+    background-color: #EEF6FC;
     margin: .7rem .2rem;
     padding: .9rem;
-    font-family: 'Quicksand', 'sans-serif';
+    font-family: 'Montserrat', 'sans-serif';
 }
 
 .container {
@@ -16,20 +16,20 @@ body {
 
 nav {
     margin-left: 1%;
-    background-color: rgb(102, 94, 79);
-    box-shadow: 0px 3px 3px gray;
-    font-family: 'Caudex', 'serif';
+    background-color: #B8D8F4;
+    box-shadow: 0px 3px 3px #089DD9;
+    font-family: 'Cormorant Garamond', 'serif';
 }
 
 .thankyou {
-    border: 2px solid rgb(71, 67, 58);
+    border: 2px solid #B8D8F4;
     margin: 5%;
 }
 
 footer {
     text-align: left;
-    background-color: rgb(102, 94, 79);
-    color: #DFD7D2;
+    background-color: blue;
+    color: #F5F5F5;
     padding: .5rem;
     bottom: 0;
     width: 97%;
@@ -38,7 +38,7 @@ footer {
 /*------------ Header ----------------*/
 
 header h1 {
-    font-family: 'Tangerine', cursive;
+    font-family: 'Montserrat', 'sans-serif';
     font-size: 3rem;
     font-weight: bold;
     grid-column-start: 2;
@@ -49,7 +49,7 @@ header h1 {
 
 header h1 a {
     text-decoration: none;
-    color: rgb(102, 94, 79);
+    color: #089DD9;
 }
 
 .logo {
@@ -58,13 +58,19 @@ header h1 a {
     margin-top:.5rem;
   
 }
+
+.social-links {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+}
 /*------------ Navigation ----------------*/
 
 .site-navigation button {
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
-    font-family: 'Caudex', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 1.2rem;
     color: white;
 }
@@ -98,7 +104,7 @@ header h1 a {
 }
 
 .site-navigation li a:hover {
-    background-color: rgba(0, 0, 0, .1);
+    background-color: #089DD9;
     color: black;;
 }
 
@@ -107,7 +113,7 @@ header h1 a {
 }
 
 .activepage {
-    background-color: #DFD7D2;
+    background-color: #089DD9;
     border-radius: 5px;
     color: black;
 }
@@ -119,7 +125,7 @@ header h1 a {
 }
 
 .primaryNav li {
-    background-color: rgb(102, 94, 79);
+    background-color: #B8D8F4;
 
     display: grid;
     grid-template-columns: repeat(3, 2fr);
@@ -208,7 +214,7 @@ header h1 a {
 
 .text {
     color: white;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #090A0C;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -222,7 +228,7 @@ header h1 a {
 .numbertext {
     color: white;
     font-size: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #090A0C;
     padding: 8px 12px;
     position: absolute;
     top: 0;
@@ -277,7 +283,7 @@ header h1 a {
 /*--------------- Aside ------------------*/
 
 aside {
-    font-family: 'Quicksand', 'sans-serif';
+    font-family: 'Montserrat', 'sans-serif';
     max-width: 98%;
     margin: .5rem;
     padding: .5rem;
@@ -287,17 +293,17 @@ aside {
 
 .hero {
     text-align: left;
-    font-family: 'Quicksand', 'sans-serif';
+    font-family: 'Montserrat', 'sans-serif';
     margin: .5rem;
     display: flex;
     flex-flow: column;
 }
 
 .hero h2 {
-    font-family: 'Caudex', 'serif';
+    font-family: 'Cormorant Garamond', 'serif';
     font-weight: bold;
     font-size: 1rem;
-    color: rgb(102, 94, 79);
+    color: #089DD9;
     text-align: center;
 }
 
@@ -307,10 +313,10 @@ aside {
 }
 
 .button {
-    background-color: rgb(102, 94, 79);
+    background-color: #B8D8F4;
     border-radius: 5px;
     box-shadow: 0px 3px 3px gray;
-    color: white;
+    color: #090A0C;
     margin: 5px;
     grid-column-start: 2;
     grid-column-end: 8;
@@ -328,7 +334,7 @@ aside {
 /*-------------- Footer -----------*/
 
 footer a {
-    color: #DFD7D2;
+    color: white;
     text-decoration: none;
     margin-left: 4%;
     font-size: .75rem;
@@ -346,7 +352,7 @@ form {
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
-    font-family: 'Caudex', 'serif';
+    font-family: 'Cormorant Garamond', 'serif';
     margin-left: 5%;
     margin-right: 5%;
     
@@ -354,13 +360,13 @@ form {
 
 form fieldset {
     margin: 1rem;
-    border: 1px solid rgb(102, 94, 79);
+    border: 1px solid  #A1C3E2;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend {
-    color: rgb(102, 94, 79);
+    color: #090A0C;
     margin: 0 1rem;
     padding: 0 .5rem;
     font-size: 1.5rem;
@@ -390,7 +396,7 @@ form label.top input, form label.top select, form textarea {
 
 form input.submitBtn {
     border: none;
-    background-color: rgb(102, 94, 79);
+    background-color: #089DD9;
     color: white;
     border-radius: 4px;
     padding: .75rem;
@@ -402,11 +408,11 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    background-color: rgba(178, 35, 35, 0.1);
+    background-color: #F5F5F5;
 }
 
 form label.top input:required:valid {
-    background-color: rgba(102, 94, 79, 0.2);
+    background-color: #ADFF2F;
 }
 
 #hint {
@@ -418,14 +424,14 @@ form h2 {
     font-size: 1.7rem;
     font-weight: normal;
     text-align: center;
-    color: rgb(71, 67, 58);
+    color: #089DD9;
 }
 
 /*-------------- Main -----------*/
 
 .thankyou h2 {
     text-align: center;
-    color: rgb(71, 67, 58);
+    color: #089DD9;
     border-bottom: 1px solid rgb(71, 67, 58);
     padding-bottom: 1rem;
 }
@@ -533,4 +539,21 @@ a.toggle {
 
 .contact p {
     margin-top:15%;
+}
+
+section.summary {
+    max-width: 200px;
+    width: calc(100% - 40px);
+    margin-right: 30px;
+}
+
+.five-day {
+    grid-template-columns: repeat(6, 1fr);
+}
+.five-day section {
+    grid-column: span 2;
+}
+.five-day section:nth-child(1),
+.five-day section:nth-child(2) {
+    grid-column: span 3;
 }

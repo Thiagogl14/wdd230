@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <title>Temple Inn & Suites | Reservations</title>
-    <meta name="description" content="Make reservations at Temple Inn and Suites">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Caudex:400,400i,700,700i%7CQuicksand:400,500,700%7CTangerine:400,700"
-        rel="stylesheet">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Temple Inn & Suites | Home Page</title>
+        <meta name="description" content="Home page for Temple Inn and Suites">
+        <link rel="stylesheet" href="styles/small.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+    </head>
 
 <body>
     <div class="container">
         <header>
-            <img class="logo" src="images/TempleInnLogo.png" alt="Temple Inn Logo">
+            <img class="logo" src="./images/Temple Inn & Suites.png" alt="Temple Inn Logo">
             <h1><a href="index.html">Temple Inn &amp; Suites</a></h1>
+            <div class="social-links">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.png" alt="Instagram logo"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png" alt="Facebook logo"></a>
+            </div>
         </header>
         <nav>
             <ul class="site-navigation">
@@ -35,19 +38,18 @@
                 <h2>&mdash;Make A Reservation&mdash;</h2>
                 <fieldset>
                     <legend>Contact Information</legend>
-                    <label class="top">Full Name*<input type="text" name="name" pattern="[A-Za-z]{5,}" required
-                            autofocus></label>
-                    <label class="top">Phone*<span id="hint">555-555-5555</span><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                            maxlength="12" placeholder="555-555-5555" required></label>
+                    <label class="top">Full Name*<input type="text" name="name" pattern="[a-zA-Z'-'\s]*" required autofocus></label>
+                    <label class="top">Phone*<span id="hint">555-555-5555</span><input type="tel" name="phone" minlength="7" placeholder="555-555-5555" required></label>
                     <label class="top">Street*<input type="text" name="street" required></label>
                     <label class="top">City*<input type="text" name="city" required></label>
                     <label class="top">State*<input type="text" name="state" required></label>
                     <label class="top">Zip Code*<input type="text" name="zip" required></label>
-                    <label class="top">Email*<input type="email" name="email" required placeholder="someone@email.com"></label>
+                    <label class="top">Email*<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required placeholder="someone@email.com"></label>
                 </fieldset>
                 <fieldset>
                     <legend>Room Information</legend>
                     <label class="top">Date of Reservation<input type="date" name="resdate"></label>
+                    <label class="top">Temple Location<input type="text" name="location"></label>
                     <label class="top">Desired Bed Type<input list="roomtype" name="roomtype">
                         <datalist id="roomtype">
                             <option selected disabled>Select Type of Bed</option>
@@ -77,13 +79,13 @@
             </form>
         </div>
         <footer>
-            <a href="https://www.lds.org/temples?lang=eng">Attributes</a> | <a href="contact.html">Contact Us</a> |
-            <span id="currentDate"></span>
+            <p>Temple Inn & Suites |</p><a href="https://www.lds.org/temples?lang=eng">Attributes</a>|<a href="contact.html">Contact Us</a>|<a href="https://goo.gl/maps/2czJQYUkV3PRfuvSA">Our Headquarters |</a>
+            <span id="updated"></span>
         </footer>
     </div>
     <!--container-->
 </body>
 <script src="scripts/hamburger.js"></script>
-<script src="scripts/currentDate.js"></script>
+<script src="scripts/updatedDate.js"></script>
 
 </html>

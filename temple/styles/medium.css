@@ -23,8 +23,8 @@
         grid-column-start: 1;
         grid-row-start: 2;
         padding: 1%;
-        background-color: rgb(102, 94, 79);
-        box-shadow: 0px 3px 3px gray;
+        background-color: #B8D8F4;
+        box-shadow: 0px 3px 3px #089DD9;
         margin-top: 15%;
     }
     .form-container {
@@ -207,4 +207,14 @@
         margin-top: 15%;
     }
 
+    .topics{
+        grid-column: 2/5;
+        grid-row: 3;
+    }
+    
+    .forecast {
+        grid-column: 6/-1;
+        grid-row: 3;
+    }
 }
+

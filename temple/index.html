@@ -3,23 +3,25 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temple Inn & Suites | Home Page</title>
-    <meta name="description" content="Home Landing page for Temple Inn and Suites">
+    <meta name="description" content="Home page for Temple Inn and Suites">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Caudex:400,400i,700,700i%7CQuicksand:400,500,700%7CTangerine:400,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
         <header>
-            <img class="logo" src="images/TempleInnLogo.png" alt="Temple Inn Logo">
+            <img class="logo" src="./images/Temple Inn & Suites.png" alt="Temple Inn Logo">
             <h1><a href="index.html">Temple Inn &amp; Suites</a></h1>
-
+            <div class="social-links">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.png" alt="Instagram logo"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png" alt="Facebook logo"></a>
+            </div>
         </header>
         <nav>
             <ul class="site-navigation">
@@ -32,8 +34,8 @@
             </ul>
         </nav>
         <div class="hero">
-            <h2>&#10018;&#10018; Welcome to Temple Inn &amp; Suites &#10018;&#10018;</h2>
-            <p> Located 15 minutes away from the Washington DC temple, Temple Inn &amp; Suites offers
+            <h2>Welcome to Temple Inn &amp; Suites</h2>
+            <p> We have information and help for every Temple you can imagine, Temple Inn &amp; Suites offers
                 amenities for those wanting a place to stay, needing a place to change, or looking for
                 a long term home while serving at the temple.</p>
 
@@ -41,25 +43,63 @@
                 <input class="button" type="submit" value="Make a Reservation Today!" />
             </form>
         </div>
-
+        <div class='topics'>
+            <section class="summary">
+                <h3>Weather Summary</h3>
+                <span>Currently:</span>
+                <span class="colored currently">Raining</span>
+                <span>High:</span>
+                <span class="colored"><span class="temperature">
+                    54</span>&deg;F</span>
+                <span>Wind Chill:</span>
+                <span class="colored chill"><span class="wind-chill">
+                    </span>&deg;F</span>
+                <span>Humidity:</span>
+                <span class="colored humidity">95%</span>
+                <span>Wind Speed:</span>
+                <span class="colored"><span class="wind-speed">
+                    12</span> mph</span>
+                <p>The current condition: <span id="icon-src"></span></p><figure><img src="." alt="" id="weathericon" />  <figcaption></figcaption></figure>
+            </section>
+        </div>
+            <section class="forecast">
+                <h3>3 Day Forecast</h3>
+                <div class="five-day">
+                    <section>
+                        <h4 id="day1"><i></i></h4>
+                        <div class="weather-icon"></div>
+                        <span><i></i></span>
+                    </section>
+                    <section>
+                        <h4 id="day2"><i></i></h4>
+                        <div class="weather-icon"></div>
+                        <span><i></i></span>
+                    </section>
+                    <section>
+                        <h4 id="day3"><i></i></h4>
+                        <div class="weather-icon"></div>
+                        <span><i></i></span>
+                    </section>
+                </div>
+            </section>
         <div class="slideshow-container">
             <div class="slideshow fade">
                 <div class="numbertext">1 / 2</div>
                 <picture>
-                    <source media="(min-width: 64em)" srcset="images/washington-dc/washington-dc-temple-exterior-950.jpg">
-                    <source media="(min-width: 37.5em)" srcset="images/washington-dc/washington-dc-temple-exterior-600.jpg">
-                    <img src="images/washington-dc/washington-dc-temple-exterior-350.jpg" alt="Washington DC Temple Exterior">
+                    <source media="(min-width: 64em)" srcset="./images/sp-temple-large.jpg">
+                    <source media="(min-width: 37.5em)" srcset="./images/sp-temple-medium.jpg">
+                    <img src="./images/sp-temple-base.jpg" alt="São Paulo Templo Exterior">
                 </picture>
-                <div class="text">Washington DC Temple</div>
+                <div class="text">São Paulo Temple</div>
             </div>
             <div class="slideshow fade">
                 <div class="numbertext">2 / 2</div>
                 <picture>
-                    <source media="(min-width: 64em)" srcset="images/washington-dc/washington-dc-temple-night-950.jpg">
-                    <source media="(min-width: 37.5em)" srcset="images/washington-dc/washington-dc-temple-night-600.jpg">
-                    <img src="images/washington-dc/washington-dc-temple-night-350.jpg" alt="Washington DC Temple at Night">
+                    <source media="(min-width: 64em)" srcset="./images/centro-large.jpg">
+                    <source media="(min-width: 37.5em)" srcset="./images/centro-medium.jpg">
+                    <img src="./images/centro-small.jpg" alt="São Paulo Visitors Center">
                 </picture>
-                <div class="text">Washington DC Temple at night</div>
+                <div class="text">São Paulo Visitors Center</div>
             </div>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -71,28 +111,26 @@
         <!--slideshow-->
         <div class="slideshow-info">
             <aside>
-                <p>The Washington DC temple, located at 9900 Stoneybrook Dr Kensington, MD 20895 is currently
-                    closed for renevations. The Visitors Center, located on temple grounds, remains open, and the 41st
-                    Annual Festival of lights
-                    is proceeding as usual. The Festival of lights is a community tradition, and includes: <br><br>
-                    <strong>&#9656; Temple grounds lit up with over 650,000 lights</strong> <br>
-                    <strong> &#9656; Nightly performances in an indoor theater</strong> <br>
-                    <strong>&#9656; Christmas trees decorated with international themes</strong> <br>
-                    <strong>&#9656; Life-sized outdoor nativity</strong> <br><br>
-                    <a href="https://dctemplelights.lds.org">Learn more about the Festival of Lights</a></p>
+                <p>The São Paulo temple, located at Av. Prof. Francisco Morato, 2390
+                    Caxingui is open for all ordinances. The Visitors Center is also open: <br><br>
+                    <strong>&#9656; 17th temple of The Church of Jesus Christ of Latter-day Saints</strong> <br>
+                    <strong> &#9656; The São Paulo Temple is the first temple to be build in the Latin America, 44 years ago</strong> <br>
+                    <a href="https://br.aigrejadejesuscristo.org/centro-de-visitantes-em-sp">Learn more about the Visitors Centers and the temple</a></p>
 
             </aside>
         </div>
         <!--slideshowinfo-->
         <footer>
-            <a href="https://www.lds.org/temples?lang=eng">Attributes</a> | <a href="contact.html">Contact Us</a> |
-            <span id="currentDate"></span>
+            <p>Temple Inn & Suites |</p><a href="https://www.lds.org/temples?lang=eng">Attributes</a>|<a href="contact.html">Contact Us</a>|<a href="https://goo.gl/maps/2czJQYUkV3PRfuvSA">Our Headquarters |</a>
+            <span id="updated"></span>
         </footer>
     </div>
     <!--container-->
 </body>
 <script src="scripts/hamburger.js"></script>
 <script src="scripts/slideshow.js"></script>
-<script src="scripts/currentDate.js"></script>
+<script src="scripts/updatedDate.js"></script>
+<script src='./scripts/weather.js'> </script>
+<script src='./scripts/forecast.js'></script>
 
 </html>

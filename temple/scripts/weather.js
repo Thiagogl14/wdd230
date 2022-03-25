@@ -1,5 +1,5 @@
 const api_key = '9ad19c57501165d8d98cb691756a8d53'
-const cityId = 3448439
+const cityId = 4348599
 const imgURL = 'https://openweathermap.org/img/w/'
 const rnd = (n,d) => {
     return (Math.round(n*10**d)/10**d)
@@ -29,10 +29,3 @@ fetch('https://api.openweathermap.org/data/2.5/weather?id='+cityId+'&units=imper
             document.querySelector('.colored.chill').innerHTML = 'N/A'
         }
     })
-
-    // const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
-    // const desc = jsObject.weather[0].description;
-    // document.querySelector('#icon-src').textContent = iconsrc;
-    // document.querySelector('#weathericon').setAttribute('src', iconsrc);
-    // document.querySelector('#weathericon').setAttribute('alt', desc);
-    // document.querySelector('figcaption').textContent = desc;
