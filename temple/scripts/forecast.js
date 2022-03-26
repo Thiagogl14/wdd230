@@ -1,7 +1,11 @@
-// const API_KEY = '9ad19c57501165d8d98cb691756a8d53'
-// const CITY_ID = 4348599
-const IMG_URL = 'https://openweathermap.org/img/w/'
-const urlWeather = 'http://api.openweathermap.org/data/2.5/forecast?id={4348599}&units=imperial&appid={08c137edc54134a547dd73969b24048a}'
+const API_KEY = '9ad19c57501165d8d98cb691756a8d53';
+
+const CITY_ID = 4348599;
+
+const IMG_URL = 'https://openweathermap.org/img/w/';
+
+const urlWeather = `https://api.openweathermap.org/data/2.5/forecast?id=${CITY_ID}&units=imperial&appid=${API_KEY}`;
+
 fetch(urlWeather)
     .then(res => {
         return res.json()

@@ -231,20 +231,20 @@
         grid-row: 5;
     }
     
-    .five-day {
+    .three-day {
         display: grid;
         margin: 0 auto;
         grid-template-columns: repeat(5, 1fr);
         max-width: 650px;
     }
-    .five-day section {
+    .three-day section {
         border: solid 0.5px var(--default-dark);
         padding: 0;
     }
-    .five-day div {
+    .three-day div {
         margin: 0 auto;
     }
-    .five-day h4 {
+    .three-day h4 {
         text-shadow: 1px 1px 1px var(--default-dark);
         background-color: var(--main-color);
         color: var(--default-light);
@@ -252,7 +252,7 @@
         padding: 0.5rem;
         margin: 0;
     }
-    .five-day span {
+    .three-day span {
         color: var(--default-dark);
         text-align: center;
         padding: 0.5rem;
