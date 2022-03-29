@@ -263,4 +263,8 @@
         grid-row: 5;
         grid-column: 4/-1;
     }
+
+    .temple-card {
+        flex-direction: column;
+    }
 }

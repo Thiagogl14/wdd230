@@ -226,5 +226,10 @@
         grid-column: 6/-1;
         grid-row: 3;
     }
+
+    .temple-card {
+        flex-direction: row-reverse;
+        display: block;
+    }
 }
 
