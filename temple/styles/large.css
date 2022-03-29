@@ -188,7 +188,7 @@
         margin: 0;
         border: none;
         padding: .5rem 2%;
-        font-family: 'Quicksand', 'sans-serif';
+        font-family: 'Montserrat', 'sans-serif';
         display: grid;
         grid-column-start: 1;
     }
@@ -213,7 +213,7 @@
     section.summary span.colored {
         text-align: left;
         padding-left: 5px;
-        color: var(--main-color);
+        color: #089DD9;
     }
     
     .topics {
@@ -232,10 +232,12 @@
     }
     
     .three-day {
-        display: grid;
+        /* display: grid; */
         margin: 0 auto;
-        grid-template-columns: repeat(5, 1fr);
+        /* grid-template-columns: repeat(5, 1fr); */
         max-width: 650px;
+        display: flex;
+        flex-direction: row;
     }
     .three-day section {
         border: solid 0.5px var(--default-dark);

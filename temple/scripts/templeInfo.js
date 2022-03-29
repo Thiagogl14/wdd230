@@ -1,4 +1,4 @@
-const templeURL = 'https://thiagogl14.github.io/wdd230/temple/data/templeInfo.json';
+const templeURL = 'https://thiagogl14.github.io/wdd230/temple/data/temples.json';
 fetch(templeURL)
     .then((response) => response.json())
     .then((jsObject) => {
