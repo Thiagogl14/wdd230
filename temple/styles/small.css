@@ -572,10 +572,19 @@ section.summary {
 }
 
 .temple-card {
-    border: 3px solid var(--main-color);
-    background-color: var(--default-light);
+    border: 3px solid #089DD9;
+    background-color: #B8D8F4;
     padding: 1rem;
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
+}
+
+.temple {
+    text-align: center;
+}
+
+.temple img {
+    width: 50%;
+
 }

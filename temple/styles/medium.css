@@ -231,5 +231,10 @@
         flex-direction: row-reverse;
         display: block;
     }
+
+    .temple{
+        grid-column: 4;
+        /* margin-left: 100px; */
+    }
 }
 
