@@ -31,6 +31,11 @@
         grid-column-start: 2;
         grid-column-end: 10;
     }
+    .form-container-missionary {
+        grid-column-start: 2;
+        grid-column-end: 10;
+        width: 50%;
+    }
     .templeimages {
         margin-left: 5%;
         grid-column-start: 2;
@@ -251,7 +256,7 @@
         grid-row: 2;
         grid-column: 4;
         background-color: #f5f5f5;
-        width: 100%;
+        
         
     }
 
@@ -269,7 +274,7 @@
         grid-row: 3;
         grid-column: 4;
         background-color: #B8D8F4;
-        width: 100%;
+        
         
     }
     
@@ -291,7 +296,7 @@
         grid-row: 4;
         grid-column: 4;
         background-color: #089DD9;
-        width: 100%;
+        
     }
 
     

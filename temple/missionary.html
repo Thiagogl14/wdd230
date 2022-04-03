@@ -60,7 +60,29 @@
                 <img src="./images/family.jpg" alt="Family suite">
             </section>
         </div>
+        <div class='form-container-missionary'>
+            <form method="get" action="thankyoucontact.html">
+                <h2>&mdash;Contact Us&mdash;</h2>
 
+                <p> Fill out the form below for more information or questions about our suites, and someone will get back to you within 2 business days!</p>
+
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label class="top">Full Name*<input type="text" name="name" pattern="[A-Za-z]{5,}" required
+                            autofocus></label>
+                    <label class="top">Email*<input type="email" name="email" required placeholder="someone@email.com"></label>
+                    <label class="top">Phone<span id="hint">555-555-5555</span><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            maxlength="12" placeholder="555-555-5555"></label>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Information</legend>
+                    <label for="comments" class="top">Comments, Questions, or Concerns</label>
+                    <textarea id="comments" name="concerns"></textarea>
+                </fieldset>
+                <input class="submitBtn" id="contactBtn" type="submit" value="Send Feeback">
+
+            </form>
         <footer>
             <p>Temple Inn & Suites |</p><a href="https://www.lds.org/temples?lang=eng">Attributes</a>|<a href="contact.html">Contact Us</a>|<a href="https://goo.gl/maps/2czJQYUkV3PRfuvSA">Our Headquarters |</a>
             <span id="updated"></span>

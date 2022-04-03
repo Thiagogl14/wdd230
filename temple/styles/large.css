@@ -186,6 +186,9 @@
     .form-container {
         grid-column-start: 1;
     }
+    .form-container-missionary {
+        grid-column-start: 1;
+    }
     /*------------ Temple Menus ----------------*/
     .accordion {
         max-width: 99%;
