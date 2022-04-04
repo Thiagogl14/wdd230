@@ -34,7 +34,7 @@
     .form-container-missionary {
         grid-column-start: 2;
         grid-column-end: 10;
-        width: 50%;
+        /* width: 50%; */
     }
     .templeimages {
         margin-left: 5%;
@@ -254,7 +254,7 @@
         border-radius: 10px;
         padding: 1em;
         grid-row: 2;
-        grid-column: 4;
+        grid-column: 4/7;
         background-color: #f5f5f5;
         
         
@@ -272,15 +272,15 @@
         border-radius: 10px;
         padding: 1em;
         grid-row: 3;
-        grid-column: 4;
+        grid-column: 4/7;
         background-color: #B8D8F4;
         
         
     }
     
-    .hotel-topics-1 img {
+    /* .hotel-topics-1 img {
         height: 75%;
-    }
+    } */
 
     .hotel-topics-2 {
         display: grid;
@@ -294,7 +294,7 @@
         border-radius: 10px;
         padding: 1em;
         grid-row: 4;
-        grid-column: 4;
+        grid-column: 4/7;
         background-color: #089DD9;
         
     }

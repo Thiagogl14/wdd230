@@ -2,47 +2,47 @@
     "temples": [
         {
             "name": "Brazil Campinas Temple",
-            "address": "Rua James Esdras Faust, 400 Barrio Notre Dame CEP 13092-820 Campinas - SP, Brazil,",
+            "address": "- Rua James Esdras Faust, 400 Barrio Notre Dame CEP 13092-820 Campinas - SP, Brazil,",
             "phone": "(55) 19-2102-5800", 
             "logo": "./images/campinas.jpg", 
-            "services": "Clothing rental available, Cafeteria available, Patron housing available, Distribution center nearby",
-            "email": "You can send an e-mail to Campinas Temple at https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng",
-            "history": "History: The temple was announced in 3 April 1997 and its groundbreaking was in 1 May 1998. The President Gordon B. Hinckley was the prophet who dedicated the temple.",
-            "schedule": "Due COVID-19 situation, you can check the Campinas Temple schedule at https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng ",
-            "closure": "Closure dates: Saturday, 2 April 2022 - Monday, 19 September 2022 - Monday, 28 November 2022 - Saturday, 24 December 2022 - Saturday, 31 December 2022"
+            "services": "- Clothing rental available, Cafeteria available, Patron housing available, Distribution center nearby",
+            "email": "- You can send an e-mail to Campinas Temple at https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng",
+            "history": "- History: The temple was announced in 3 April 1997 and its groundbreaking was in 1 May 1998. The President Gordon B. Hinckley was the prophet who dedicated the temple.",
+            "schedule": "- Due COVID-19 situation, you can check the Campinas Temple schedule at https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng ",
+            "closure": "- Closure dates: Saturday, 2 April 2022 - Monday, 19 September 2022 - Monday, 28 November 2022 - Saturday, 24 December 2022 - Saturday, 31 December 2022"
         },
         {
             "name": "Australia Sydney Temple",
-            "address": "125 Columbus Ave, Fourth Floor New York NY 10023-6514 United States",
+            "address": "- 125 Columbus Ave, Fourth Floor New York NY 10023-6514 United States",
             "phone": "(1) 917-441-8220", 
             "logo": "./images/sydney.jpg", 
-            "services": "No clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
-            "email": "You can send an e-mail to Sydney Temple at https://www.churchofjesuschrist.org/temples/details/sydney-australia-temple?lang=eng ",
-            "history": "History: The temple was announced in 2 April 1980 and its groundbreaking was in 13 August 1982. It was dedicated by the prophet and President Gordon B. Hinckley, at the time as a Member of the Quorum of the Twelve Apostles.",
-            "schedule": "Due COVID-19 situation, you can check the Sydney Temple schedule at https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng ",
-            "closure": "Closure dates: Saturday, 2 April 2022 - Monday, 19 September 2022 - Monday, 28 November 2022 - Saturday, 24 December 2022 -Saturday, 31 December 2022"
+            "services": "- No clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+            "email": "- You can send an e-mail to Sydney Temple at https://www.churchofjesuschrist.org/temples/details/sydney-australia-temple?lang=eng ",
+            "history": "- History: The temple was announced in 2 April 1980 and its groundbreaking was in 13 August 1982. It was dedicated by the prophet and President Gordon B. Hinckley, at the time as a Member of the Quorum of the Twelve Apostles.",
+            "schedule": "- Due COVID-19 situation, you can check the Sydney Temple schedule at https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng ",
+            "closure": "- Closure dates: Saturday, 2 April 2022 - Monday, 19 September 2022 - Monday, 28 November 2022 - Saturday, 24 December 2022 -Saturday, 31 December 2022"
         },
         {
             "name": "Manhattan New York Temple",
-            "address": "756 Pennant Hills Road Corner Pennant Hills Rd & Moseley St. Carlingford NSW 2118, Australia",
+            "address": "- 756 Pennant Hills Road Corner Pennant Hills Rd & Moseley St. Carlingford NSW 2118, Australia",
             "phone": "(61) 2-9841-5471", 
             "logo": "./images/manhattan.jpg", 
-            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-            "email": "You can send an e-mail to Manhattan Temple at https://www.churchofjesuschrist.org/temples/details/manhattan-new-york-temple?lang=eng",
-            "history": "History: The temple was announced in 7 August 2002 and its groundbreaking was in 23 September 2002. It was dedicated by the President Gordon B. Hinckley in 13 June 2004.",
-            "schedule": "Due COVID-19 situation, you can check the Manhattan Temple schedule at https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng ",
-            "closure": "Closure dates: Saturday, 2 April 2022 - Sunday, 3 April 2022 - Monday, 4 July 2022 - Monday, 25 July 2022 - Monday, 8 August 2022"
+            "services": "- Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "email": "- You can send an e-mail to Manhattan Temple at https://www.churchofjesuschrist.org/temples/details/manhattan-new-york-temple?lang=eng",
+            "history": "- History: The temple was announced in 7 August 2002 and its groundbreaking was in 23 September 2002. It was dedicated by the President Gordon B. Hinckley in 13 June 2004.",
+            "schedule": "- Due COVID-19 situation, you can check the Manhattan Temple schedule at https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng ",
+            "closure": "- Closure dates: Saturday, 2 April 2022 - Sunday, 3 April 2022 - Monday, 4 July 2022 - Monday, 25 July 2022 - Monday, 8 August 2022"
         },
         {
             "name": "Paris France Temple",
-            "address": "46 Boulevard Saint Antoine 78150 Le Chesnay France,",
+            "address": "- 46 Boulevard Saint Antoine 78150 Le Chesnay France,",
             "phone": "(33) 970-73-70-00", 
             "logo": "./images/paris.jpg", 
-            "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
-            "email": "You can send an e-mail to Manhattan Temple at https://www.churchofjesuschrist.org/temples/details/paris-france-temple?lang=eng",
-            "history": "History: The temple was announced in 1 October 2011 and its groundbreaking was in 24 August 2012. It was dedicated by President Henry B. Eyring, at the time First Counselor in the First Presidency in 21 May 2017.",
-            "schedule": "Due COVID-19 situation, you can check the Paris Temple schedule at https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng ",
-            "closure": "Closure dates: Saturday, 2 April 2022 (Limited Operations) - Monday, 13 June 2022 - Monday, 22 August 2022 - Saturday, 1 October 2022 (Limited Operations) - Saturday, 24 December 2022 - Saturday, 31 December 2022"
+            "services": "- Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+            "email": "- You can send an e-mail to Manhattan Temple at https://www.churchofjesuschrist.org/temples/details/paris-france-temple?lang=eng",
+            "history": "- History: The temple was announced in 1 October 2011 and its groundbreaking was in 24 August 2012. It was dedicated by President Henry B. Eyring, at the time First Counselor in the First Presidency in 21 May 2017.",
+            "schedule": "- Due COVID-19 situation, you can check the Paris Temple schedule at https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng ",
+            "closure": "- Closure dates: Saturday, 2 April 2022 (Limited Operations) - Monday, 13 June 2022 - Monday, 22 August 2022 - Saturday, 1 October 2022 (Limited Operations) - Saturday, 24 December 2022 - Saturday, 31 December 2022"
         }
        
     ]
