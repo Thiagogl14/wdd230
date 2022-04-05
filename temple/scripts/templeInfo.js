@@ -50,6 +50,11 @@ fetch(templeURL)
             closure.classList.add('card-closure');
             text.appendChild(closure);
 
+            let button = document.createElement('span');
+            button.textContent = cardContent.button;
+            button.classList.add('like-btn');
+            text.appendChild(button);
+
             if (cardContent.logo != "") {
                 let logo = document.createElement('img');
                 logo.setAttribute('src', cardContent.logo);
