@@ -50,7 +50,7 @@ fetch(templeURL)
             closure.classList.add('card-closure');
             text.appendChild(closure);
 
-            let button = document.createElement('span');
+            let button = document.createElement('a');
             button.textContent = cardContent.button;
             button.classList.add('like-btn');
             text.appendChild(button);
