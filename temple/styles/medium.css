@@ -203,13 +203,13 @@
         border: 1px double rgb(102, 94, 79);
         border-radius: 10px;
         padding: .5rem 2%;
-        font-family: 'Quicksand', 'sans-serif';
+        font-family: 'Montserrat', 'sans-serif';
         max-width:100%;
-        display: grid;
+        display: block;
         grid-auto-flow: column;
     }
     .contact p {
-        margin-top: 15%;
+        margin: inherit;
     }
 
     .topics{
@@ -299,6 +299,9 @@
         
     }
 
+    .reception-container {
+        grid-column: 5;
+    }
     
 }
 

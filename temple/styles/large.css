@@ -199,14 +199,13 @@
     /*------------ Contact Us ----------------*/
     .contact {
         margin: 0;
-        border: none;
         padding: .5rem 2%;
         font-family: 'Montserrat', 'sans-serif';
-        display: grid;
+        display: block;
         grid-column-start: 1;
     }
     .contact p {
-        margin-top: 10%;
+        margin: inherit;
     }
     section.summary {
         display: grid;
@@ -314,18 +313,19 @@
         margin: 0 auto;
     }
     .three-day h4 {
-        text-shadow: 1px 1px 1px var(--default-dark);
-        background-color: var(--main-color);
-        color: var(--default-light);
+        text-shadow: 1px 1px 1px grey;
+        color: #089DD9;
         text-align: center;
         padding: 0.5rem;
         margin: 0;
     }
     .three-day span {
-        color: var(--default-dark);
+        color: #089DD9;
         text-align: center;
         padding: 0.5rem;
         display: block;
+        text-shadow: 1px 1px 1px grey;
+        
     }
 
     .forecast{
