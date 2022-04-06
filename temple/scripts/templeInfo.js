@@ -52,7 +52,10 @@ fetch(templeURL)
 
             let button = document.createElement('a');
             button.textContent = cardContent.button;
+            button.classList.add('panel-group_btn');
             button.classList.add('like-btn');
+            button.setAttribute('id', 'like')
+            button.setAttribute('href', '#')
             text.appendChild(button);
 
             if (cardContent.logo != "") {
