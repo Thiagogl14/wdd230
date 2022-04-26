@@ -51,12 +51,17 @@ fetch(templeURL)
             text.appendChild(closure);
 
             let button = document.createElement('a');
+            document.createElement('span');
             button.textContent = cardContent.button;
             button.classList.add('panel-group_btn');
-            button.classList.add('like-btn');
-            button.setAttribute('id', 'like')
-            button.setAttribute('href', '#')
-            text.appendChild(button);
+            button.setAttribute('href', '#');
+            text.appendChild(button); 
+
+            let like = document.createElement('span');
+            like.textContent = cardContent.button;
+            like.classList.add('like-btn');
+            like.setAttribute('id', 'like');
+        
 
             if (cardContent.logo != "") {
                 let logo = document.createElement('img');
